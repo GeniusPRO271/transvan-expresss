@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import "./globals.css";
 import { Header } from "@/components/header";
+import { WhatsAppButton } from "@/components/whatsapp-button";
 import { Plus_Jakarta_Sans, Instrument_Serif } from "next/font/google";
 import Footer from "@/components/footer";
 
@@ -137,6 +138,7 @@ export default function RootLayout({
         <Header />
         {children}
         <div className="hidden lg:block"><Footer /></div>
+        <WhatsAppButton />
       </body>
     </html>
   );

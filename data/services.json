@@ -1,12 +1,46 @@
 [
   {
+    "id": "transfer-farellones",
+    "title": "Transfer Farellones",
+    "shortDesc": "Traslado a Farellones: el pueblo de montaña más cercano a Santiago, ideal para familias.",
+    "cardImage": "/images/transfer-farellones/Parque-de-Nieve-Farellones-2.webp",
+    "capacity": "1 a 19 pasajeros",
+    "minReservation": "Reserva instantánea",
+    "languages": [
+      "Español",
+      "Inglés",
+      "Portugués"
+    ],
+    "description": [
+      "Transfer privado de Santiago a Farellones, el pueblo de montaña más accesible de los Andes chilenos, a solo 50 km del centro de la capital. A 2.330 metros de altitud, Farellones es la puerta de entrada a los centros de ski El Colorado y La Parva, y el lugar favorito de las familias santiaguinas para disfrutar la nieve en invierno.",
+      "Farellones no es solo un punto de paso: tiene su propia pista de ski con bajadas para principiantes y niños, áreas de trineo, tiendas de arriendo de equipos y restaurantes con vistas espectaculares a la cordillera. Es el lugar ideal para quien quiere experimentar la nieve por primera vez sin la presión de un centro de ski grande.",
+      "El trayecto desde Santiago toma unos 50 minutos por la Ruta G-21, con curvas panorámicas que regalan vistas de la ciudad desde la altura. Nuestra van parte a la hora que necesites, ideal para llegar cuando las pistas abren o para una salida más tranquila de mediodía. El retorno se coordina según tu itinerario del día.",
+      "Desde Farellones puedes subir fácilmente a El Colorado y La Parva en los mismos remontadas, así que es una base perfecta para explorar todo el sector. El vehículo cuenta con cadenas de nieve disponibles y espacio para equipaje de nieve y trineos. Reserva instantánea confirmada por WhatsApp, disponible toda la temporada invernal."
+    ],
+    "includedServices": [
+      "Vehículo apto para ruta de montaña",
+      "Cadenas de nieve disponibles",
+      "Conductor experto en ruta invernal",
+      "Wi-Fi a bordo",
+      "Espacio para equipaje de nieve"
+    ],
+    "gallery": [
+      "/images/transfer-farellones/Parque%20farellones%201.jpeg",
+      "/images/transfer-farellones/Parque%20farellones%202.webp"
+    ]
+  },
+  {
     "id": "transfer-valparaiso",
     "title": "Transfer a Valparaíso",
     "shortDesc": "Viaje cómodo y directo desde Santiago hacia el puerto más emblemático de Chile.",
     "cardImage": "/images/transfer-valparaiso/Gemini_Generated_Image_j9jz49j9jz49j9jz.png",
-    "capacity": "Hasta 7 pasajeros · 6 maletas",
+    "capacity": "1 a 19 pasajeros",
     "minReservation": "Reserva instantánea",
-    "languages": ["Español", "Inglés", "Alemán"],
+    "languages": [
+      "Español",
+      "Inglés",
+      "Portugués"
+    ],
     "description": [
       "Ofrecemos transfer privado entre Santiago y Valparaíso para que viajes con total comodidad y sin preocupaciones. El recorrido toma aproximadamente 1 hora 30 minutos por la Ruta 68, atravesando los viñedos del Valle de Casablanca antes de descender hacia la bahía más icónica de Chile.",
       "Valparaíso es Patrimonio de la Humanidad reconocido por la UNESCO, famoso por sus cerros pintorescos, ascensores centenarios, murales urbanos y una cultura bohemia única. Nuestros conductores conocen cada rincón de la ciudad y pueden sugerirte los mejores miradores, cafés y restaurantes del puerto para que aproveches al máximo tu visita.",
@@ -17,7 +51,6 @@
       "Recogida en punto acordado",
       "Conductor bilingüe",
       "Wi-Fi a bordo",
-      "Agua y snacks",
       "Equipaje incluido",
       "Paradas fotográficas"
     ],
@@ -31,9 +64,13 @@
     "title": "Transfer aeropuerto",
     "shortDesc": "Llegada o salida sin estrés con conductor esperándote en el terminal.",
     "cardImage": "/images/transfer-aeropuerto/Gemini_Generated_Image_x2hdoyx2hdoyx2hd.png",
-    "capacity": "Hasta 7 pasajeros · 6 maletas",
+    "capacity": "1 a 19 pasajeros",
     "minReservation": "Reserva instantánea",
-    "languages": ["Español", "Inglés", "Alemán"],
+    "languages": [
+      "Español",
+      "Inglés",
+      "Portugués"
+    ],
     "description": [
       "Transfer al Aeropuerto Internacional Arturo Merino Benítez (SCL) con puntualidad garantizada y seguimiento de vuelo en tiempo real. Ya sea que llegues a Santiago o necesites llegar a tiempo para tu vuelo, estamos ahí para que nada falle.",
       "Para llegadas, monitoreamos tu vuelo en tiempo real. Si hay retrasos, ajustamos la hora de recogida automáticamente. Tu conductor te esperará en la zona de llegadas con un cartel con tu nombre, listo para llevar tu equipaje a la van y conducirte a tu destino con total tranquilidad.",
@@ -45,7 +82,6 @@
       "Cartel con tu nombre en llegadas",
       "Conductor bilingüe",
       "Wi-Fi a bordo",
-      "Agua y snacks",
       "Equipaje incluido"
     ],
     "gallery": [
@@ -58,9 +94,13 @@
     "title": "Transfer Valle Nevado",
     "shortDesc": "Traslado privado desde Santiago a Valle Nevado, el centro de ski más grande de Sudamérica.",
     "cardImage": "/images/transfer-ski/trans-centro-de-ski.jpg",
-    "capacity": "Hasta 7 pasajeros · 6 maletas",
+    "capacity": "1 a 19 pasajeros",
     "minReservation": "Reserva instantánea",
-    "languages": ["Español", "Inglés", "Alemán"],
+    "languages": [
+      "Español",
+      "Inglés",
+      "Portugués"
+    ],
     "description": [
       "Transfer privado desde Santiago a Valle Nevado, el centro de ski más grande e internacional de Sudamérica, ubicado a 3.025 metros de altitud y a solo 60 km de la capital. Con más de 900 hectáreas esquiables y 31 pistas que van de fácil a extremo, Valle Nevado es el destino favorito de esquiadores de todo el mundo.",
       "La temporada de ski va de junio a septiembre. Nuestras vans salen temprano en la mañana para que llegues a las pistas cuando abren las remontadas, y regresan al final de la tarde. El ascenso por la Ruta G-21 es uno de los trayectos andinos más espectaculares de Chile — sinuosas curvas rodeadas de nieve y cumbres a más de 4.000 metros.",
@@ -72,7 +112,6 @@
       "Cadenas de nieve disponibles",
       "Conductor experto en ruta invernal",
       "Wi-Fi a bordo",
-      "Agua y snacks",
       "Espacio para equipaje de ski"
     ],
     "gallery": [
@@ -85,9 +124,13 @@
     "title": "Transfer El Colorado",
     "shortDesc": "Van privada de Santiago a El Colorado: 20 pistas para todos los niveles, a 45 min del centro.",
     "cardImage": "/images/transfer-ski/trans-centro-de-ski.jpg",
-    "capacity": "Hasta 7 pasajeros · 6 maletas",
+    "capacity": "1 a 19 pasajeros",
     "minReservation": "Reserva instantánea",
-    "languages": ["Español", "Inglés", "Alemán"],
+    "languages": [
+      "Español",
+      "Inglés",
+      "Portugués"
+    ],
     "description": [
       "Transfer privado de Santiago a El Colorado, el centro de ski más visitado de Chile y uno de los más accesibles desde la capital. Con 20 pistas entre 2.430 y 3.333 metros de altitud, El Colorado ofrece nieve garantizada y variedad para todos los niveles, desde principiantes hasta esquiadores avanzados.",
       "El acceso es por la Ruta G-21 hasta Farellones y luego el camino al centro. La temporada activa va de junio a septiembre, con nieve natural complementada por cañones de nieve artificial. Nuestras vans parten temprano para que aproveches cada hora de sol en la montaña, con retorno coordinado a la hora que prefieras.",
@@ -99,7 +142,6 @@
       "Cadenas de nieve disponibles",
       "Conductor experto en ruta invernal",
       "Wi-Fi a bordo",
-      "Agua y snacks",
       "Espacio para equipaje de ski"
     ],
     "gallery": [
@@ -112,9 +154,13 @@
     "title": "Transfer La Parva",
     "shortDesc": "Transfer exclusivo a La Parva, el centro de ski más privado y sofisticado de los Andes.",
     "cardImage": "/images/transfer-ski/trans-hacia-centro-de-ski.png",
-    "capacity": "Hasta 7 pasajeros · 6 maletas",
+    "capacity": "1 a 19 pasajeros",
     "minReservation": "Reserva instantánea",
-    "languages": ["Español", "Inglés", "Alemán"],
+    "languages": [
+      "Español",
+      "Inglés",
+      "Portugués"
+    ],
     "description": [
       "Transfer privado a La Parva, el centro de ski más exclusivo y sofisticado del sector cordillerano de Santiago. Ubicado entre 2.662 y 3.630 metros de altitud, La Parva destaca por su ambiente íntimo, sus 36 pistas variadas y una clientela que busca una experiencia de nieve más privada que la de los centros masivos.",
       "La Parva tiene una particularidad única en Chile: gran parte de su infraestructura es un condominio privado con más de 1.000 propiedades de montaña. Esto le da un carácter exclusivo que contrasta con la animada Villa de El Colorado. Sus restaurantes y servicios son de nivel superior, y las pistas suelen estar menos concurridas que en otros centros del sector.",
@@ -126,35 +172,7 @@
       "Cadenas de nieve disponibles",
       "Conductor experto en ruta invernal",
       "Wi-Fi a bordo",
-      "Agua y snacks",
       "Espacio para equipaje de ski"
-    ],
-    "gallery": [
-      "/images/transfer-ski/trans-hacia-centro-de-ski.png",
-      "/images/transfer-ski/trans-centro-de-ski.jpg"
-    ]
-  },
-  {
-    "id": "transfer-farellones",
-    "title": "Transfer Farellones",
-    "shortDesc": "Traslado a Farellones: el pueblo de montaña más cercano a Santiago, ideal para familias.",
-    "cardImage": "/images/transfer-ski/trans-hacia-centro-de-ski.png",
-    "capacity": "Hasta 7 pasajeros · 6 maletas",
-    "minReservation": "Reserva instantánea",
-    "languages": ["Español", "Inglés", "Alemán"],
-    "description": [
-      "Transfer privado de Santiago a Farellones, el pueblo de montaña más accesible de los Andes chilenos, a solo 50 km del centro de la capital. A 2.330 metros de altitud, Farellones es la puerta de entrada a los centros de ski El Colorado y La Parva, y el lugar favorito de las familias santiaguinas para disfrutar la nieve en invierno.",
-      "Farellones no es solo un punto de paso: tiene su propia pista de ski con bajadas para principiantes y niños, áreas de trineo, tiendas de arriendo de equipos y restaurantes con vistas espectaculares a la cordillera. Es el lugar ideal para quien quiere experimentar la nieve por primera vez sin la presión de un centro de ski grande.",
-      "El trayecto desde Santiago toma unos 50 minutos por la Ruta G-21, con curvas panorámicas que regalan vistas de la ciudad desde la altura. Nuestra van parte a la hora que necesites, ideal para llegar cuando las pistas abren o para una salida más tranquila de mediodía. El retorno se coordina según tu itinerario del día.",
-      "Desde Farellones puedes subir fácilmente a El Colorado y La Parva en los mismos remontadas, así que es una base perfecta para explorar todo el sector. El vehículo cuenta con cadenas de nieve disponibles y espacio para equipaje de nieve y trineos. Reserva instantánea confirmada por WhatsApp, disponible toda la temporada invernal."
-    ],
-    "includedServices": [
-      "Vehículo apto para ruta de montaña",
-      "Cadenas de nieve disponibles",
-      "Conductor experto en ruta invernal",
-      "Wi-Fi a bordo",
-      "Agua y snacks",
-      "Espacio para equipaje de nieve"
     ],
     "gallery": [
       "/images/transfer-ski/trans-hacia-centro-de-ski.png",
@@ -166,9 +184,13 @@
     "title": "Viña del Mar",
     "shortDesc": "Descubre la Ciudad Jardín con un transfer privado a tu medida.",
     "cardImage": "/images/transfer-valparaiso/Gemini_Generated_Image_j9jz49j9jz49j9jz.png",
-    "capacity": "Hasta 7 pasajeros · 6 maletas",
+    "capacity": "1 a 19 pasajeros",
     "minReservation": "Reserva instantánea",
-    "languages": ["Español", "Inglés", "Alemán"],
+    "languages": [
+      "Español",
+      "Inglés",
+      "Portugués"
+    ],
     "description": [
       "Viña del Mar, conocida como la Ciudad Jardín, es el destino de playa más visitado de Chile. A solo 120 km de Santiago, ofrece una combinación única de playas, parques floridos, gastronomía marina, casino y una vibrante vida nocturna. Nuestro transfer privado entre Santiago y Viña del Mar convierte el trayecto en parte del placer del viaje.",
       "El traslado toma aproximadamente 1 hora 30 minutos por la Ruta 68. Durante el camino puedes pedirle a tu conductor que se detenga en algún viñedo del Valle de Casablanca, uno de los más famosos productores de Sauvignon Blanc y Chardonnay de Chile. Una pausa perfecta antes de llegar a la costa.",
@@ -179,7 +201,6 @@
       "Recogida en punto acordado",
       "Conductor bilingüe",
       "Wi-Fi a bordo",
-      "Agua y snacks",
       "Paradas a elección",
       "Equipaje incluido"
     ],
@@ -193,9 +214,12 @@
     "title": "Tour Embalse del Yeso",
     "shortDesc": "Una jornada única al embalse de aguas turquesas en el cajón del Maipo.",
     "cardImage": "/images/tour-embalse-del-yeso/Gemini_Generated_Image_vhswwevhswwevhsw.png",
-    "capacity": "Hasta 7 pasajeros",
+    "capacity": "1 a 19 pasajeros",
     "minReservation": "Reserva con 48 hrs de anticipación",
-    "languages": ["Español", "Inglés"],
+    "languages": [
+      "Español",
+      "Inglés"
+    ],
     "description": [
       "El tour al Embalse El Yeso en el cajón del Maipo es una excursión de día completo a uno de los paisajes más impresionantes de Chile. Ubicado a 2.475 metros de altitud, a unos 100 km al sureste de Santiago, este embalse de aguas turquesas contrasta con las cumbres nevadas de los Andes en un espectáculo visual único.",
       "La excursión parte temprano desde Santiago recorriendo el cajón del Maipo por la Ruta G-25. En el camino pasaremos por el pueblo de San José de Maipo, el balneario de El Volcán y el pueblo minero de El Yeso, antes de llegar al embalse. El trayecto de ascenso ya es parte del espectáculo: quebradas profundas, ríos de aguas cristalinas y flora andina que cambia con la altitud.",
@@ -206,7 +230,6 @@
       "Guía local incluido",
       "Transporte ida y vuelta",
       "Paradas fotográficas",
-      "Agua y snacks",
       "Seguro de excursión",
       "Equipaje de día"
     ],
@@ -220,9 +243,13 @@
     "title": "City tour Santiago",
     "shortDesc": "Recorre los barrios más icónicos de Santiago con un conductor-guía.",
     "cardImage": "/images/tour-santiago/Gemini_Generated_Image_lbhlmrlbhlmrlbhl.png",
-    "capacity": "Hasta 7 pasajeros",
+    "capacity": "1 a 19 pasajeros",
     "minReservation": "Reserva instantánea",
-    "languages": ["Español", "Inglés", "Alemán"],
+    "languages": [
+      "Español",
+      "Inglés",
+      "Portugués"
+    ],
     "description": [
       "El city tour privado de Santiago con Transvan Express recorre los barrios más icónicos de la capital a tu propio ritmo, sin las restricciones de un tour grupal. Santiago combina modernidad con historia colonial, naturaleza andina y vida urbana vibrante en una ciudad que siempre sorprende a quien la conoce.",
       "El recorrido estándar incluye la Plaza de Armas y el centro histórico, el Barrio Lastarria y Bellavista — el corazón bohemio de la ciudad con galerías, cafés y la casa de Pablo Neruda en La Chascona —, el Cerro Santa Lucía con su panorámica del centro, el barrio Italia con sus tiendas vintage y restaurantes de tendencia, y el moderno corredor de Las Condes con el Costanera Center y sus vistas a la cordillera.",
@@ -233,7 +260,6 @@
       "Guía bilingüe incluido",
       "Transporte privado en van",
       "Itinerario personalizado",
-      "Agua y snacks",
       "Mapas y recomendaciones locales",
       "Paradas a elección"
     ],
@@ -247,9 +273,13 @@
     "title": "Tour viñedos",
     "shortDesc": "Visita las mejores viñas del Valle Central con catas incluidas.",
     "cardImage": "/images/tour-vinedos/Gemini_Generated_Image_d4v9bmd4v9bmd4v9.png",
-    "capacity": "Hasta 7 pasajeros",
+    "capacity": "1 a 19 pasajeros",
     "minReservation": "Reserva con 48 hrs de anticipación",
-    "languages": ["Español", "Inglés", "Alemán"],
+    "languages": [
+      "Español",
+      "Inglés",
+      "Portugués"
+    ],
     "description": [
       "Nuestro tour de viñedos privado conecta Santiago con los mejores valles vitivinícolas de Chile — Maipo, Casablanca y Colchagua — con transporte en van, visita guiada a bodega y cata de vinos incluida. Chile es uno de los grandes productores del mundo, y sus valles están a pocas horas de la capital.",
       "El Valle del Maipo, el más cercano a Santiago (30-60 min), es el hogar del Cabernet Sauvignon chileno por excelencia, con bodegas icónicas como Concha y Toro, Santa Rita y Cousiño-Macul. El Valle de Casablanca, de camino a la costa, es fresco y brumoso, ideal para blancos aromáticos como Sauvignon Blanc y Chardonnay. El Valle de Colchagua, al sur (2 hrs desde Santiago), es reconocido internacionalmente por sus Carménère y Syrah.",
@@ -261,7 +291,6 @@
       "Visita a bodega con tour",
       "Transporte privado ida y vuelta",
       "Conductor designado (sin consumo)",
-      "Agua y snacks",
       "Seguro de excursión"
     ],
     "gallery": [
@@ -274,9 +303,12 @@
     "title": "Parque safari",
     "shortDesc": "Un día de aventura familiar en el Safari Park de Rancagua.",
     "cardImage": "/images/tour-safari/Gemini_Generated_Image_i4jlwei4jlwei4jl.png",
-    "capacity": "Hasta 7 pasajeros · 6 maletas",
+    "capacity": "1 a 19 pasajeros",
     "minReservation": "Reserva instantánea",
-    "languages": ["Español", "Inglés"],
+    "languages": [
+      "Español",
+      "Inglés"
+    ],
     "description": [
       "El Parque Safari de Rancagua es el único parque de safari en Chile, con más de 1.000 animales de más de 100 especies en semi-libertad en un espacio de 80 hectáreas. Es un destino ideal para familias con niños, grupos de amigos o cualquier persona que quiera vivir la experiencia de un safari africano sin salir de Sudamérica.",
       "El parque está ubicado a aproximadamente 90 km al sur de Santiago, un trayecto de unos 60 minutos por la Ruta 5 Sur. Nuestro traslado privado en van hace el viaje mucho más cómodo y relajado que el transporte público, especialmente si viajas con niños, carriolas o mucho equipaje de día. Partimos a la hora que establezcas y regresamos cuando el parque cierre o según tu preferencia.",
@@ -288,7 +320,6 @@
       "Transporte privado ida y vuelta",
       "Conductor bilingüe",
       "Wi-Fi a bordo",
-      "Agua y snacks",
       "Horario de retorno flexible"
     ],
     "gallery": [
@@ -301,9 +332,13 @@
     "title": "Portillo y Laguna del Inca",
     "shortDesc": "Visita el legendario resort de montaña y la misteriosa laguna.",
     "cardImage": "/images/transfer-ski/trans-centro-de-ski.jpg",
-    "capacity": "Hasta 7 pasajeros",
+    "capacity": "1 a 19 pasajeros",
     "minReservation": "Reserva con 24 hrs de anticipación",
-    "languages": ["Español", "Inglés", "Alemán"],
+    "languages": [
+      "Español",
+      "Inglés",
+      "Portugués"
+    ],
     "description": [
       "Portillo es uno de los centros de ski más antiguos y emblemáticos del mundo. Fundado en 1949 y ubicado a 2.835 metros de altitud en los Andes, a 145 km de Santiago, ha sido escenario de Campeonatos Mundiales de Ski Alpino y sede de entrenamiento de selecciones nacionales de todos los continentes. La Laguna del Inca, a sus pies, es uno de los grandes misterios naturales de Chile.",
       "La leyenda inca cuenta que el príncipe Illi Yunqui ordenó enterrar a su amada en las profundidades del lago tras su muerte accidental, y desde entonces sus aguas adoptaron el color esmeralda de los ojos de la princesa. Más allá del mito, la laguna es un cuerpo de agua de origen glaciar cuyo nivel sube y baja con las temporadas, y cuyo fondo nunca ha sido explorado completamente.",
@@ -314,7 +349,6 @@
       "Guía de montaña especializado",
       "Transporte ida y vuelta",
       "Paradas fotográficas en miradores",
-      "Agua y snacks",
       "Seguro de excursión",
       "Verificación de condiciones de ruta"
     ],
@@ -328,9 +362,12 @@
     "title": "Pomaire e Isla Negra",
     "shortDesc": "Artesanía en barro y la casa museo de Pablo Neruda en un mismo día.",
     "cardImage": "/images/pomaire-isla-negra/Gemini_Generated_Image_nlkddjnlkddjnlkd.png",
-    "capacity": "Hasta 7 pasajeros",
+    "capacity": "1 a 19 pasajeros",
     "minReservation": "Reserva con 24 hrs de anticipación",
-    "languages": ["Español", "Inglés"],
+    "languages": [
+      "Español",
+      "Inglés"
+    ],
     "description": [
       "El tour Pomaire e Isla Negra es una excursión cultural desde Santiago a dos destinos únicos en un solo día: el pueblo artesanal más famoso de Chile y la casa museo de Pablo Neruda frente al Pacífico. Una experiencia que combina gastronomía, artesanía en barro y literatura en menos de 120 km desde la capital.",
       "Pomaire está ubicado a 65 km al suroeste de Santiago. Este pequeño pueblo de adobe es famoso en todo el país por sus artesanos alfareros, que siguen trabajando el barro a mano con técnicas transmitidas de generación en generación. Sus calles están llenas de tiendas de cerámica, restaurantes de comida tradicional chilena y el aroma de la famosa empanada de Pomaire — considerada por muchos la mejor del país.",
@@ -341,7 +378,6 @@
       "Guía cultural bilingüe",
       "Transporte ida y vuelta",
       "Parada gastronómica en Pomaire",
-      "Agua y snacks",
       "Tiempo libre para compras en Pomaire",
       "Contexto histórico y literario"
     ],
@@ -355,9 +391,13 @@
     "title": "Van matrimonios",
     "shortDesc": "Traslado elegante y confiable para el día más especial.",
     "cardImage": "/images/trans-express.png",
-    "capacity": "Hasta 7 pasajeros · 6 maletas",
+    "capacity": "1 a 19 pasajeros",
     "minReservation": "Reserva con 72 hrs de anticipación",
-    "languages": ["Español", "Inglés", "Alemán"],
+    "languages": [
+      "Español",
+      "Inglés",
+      "Portugués"
+    ],
     "description": [
       "Nuestro servicio de van para matrimonios y eventos en Santiago ofrece traslados de alta categoría para novios, familiares e invitados, con la puntualidad, presentación y atención al detalle que el día más especial exige. Transvan Express es el aliado de confianza para que el transporte nunca sea una preocupación.",
       "La van llega decorada según los colores y estilo del evento, con el conductor vestido de forma formal. Coordinamos directamente con el wedding planner o los organizadores del evento para sincronizar los horarios de traslado con la ceremonia, el cóctel y el banquete. Tenemos rutas alternativas previstas para cada trayecto, garantizando que nadie llegue tarde sin importar el tráfico de la ciudad.",
@@ -368,7 +408,6 @@
       "Vehículo decorado para el evento",
       "Conductor formal de etiqueta",
       "Puntualidad garantizada",
-      "Agua y champagne a bordo",
       "Coordinación con wedding planner",
       "Rutas alternativas previstas"
     ],

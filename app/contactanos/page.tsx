@@ -31,8 +31,12 @@ export default function Contact() {
             </div>
             <div className="flex flex-col text-white leading-[140%]">
               <span className="font-semibold text-[16px]">Contacto Whatsapp</span>
-              <p className="font-light text-white/80 text-[16px]">+56 9 92912194</p>
-              <p className="font-light text-[16px] text-white/80">+56 9 88101802</p>
+              <Link href="https://wa.me/56992912194" target="_blank" rel="noopener noreferrer" className="cursor-pointer hover:opacity-80 transition-opacity">
+                <p className="font-light text-white/80 text-[16px]">+56 9 92912194</p>
+              </Link>
+              <Link href="https://wa.me/56988101802" target="_blank" rel="noopener noreferrer" className="cursor-pointer hover:opacity-80 transition-opacity">
+                <p className="font-light text-[16px] text-white/80">+56 9 88101802</p>
+              </Link>
             </div>
 
             <div className="flex flex-col text-white leading-[140%]">
@@ -60,8 +64,8 @@ export default function Contact() {
           </div>
         </div>
       </div>
-      <div className="hidden lg:block absolute right-[7px] bottom-0 h-[calc(100vh-10px)] items-stretch max-w-[320px] w-full justify-end z-50 scrollbar-hide">
-        <Link href={"https://form.typeform.com/to/MIwhR07i"} className="flex items-center cursor-pointer justify-start bg-[#ffffff14] hover:bg-[rgba(255,255,255,0.15)] backdrop-blur-md gap-x-2.5 p-2.5 font-main text-white rounded-[12.8px] w-[320px] h-26.25">
+      <div className="hidden lg:flex pointer-events-none absolute right-[7px] bottom-0 h-[calc(100vh-10px)] items-stretch max-w-[320px] w-full justify-end z-50 scrollbar-hide">
+        <Link href={"https://form.typeform.com/to/MIwhR07i"} className="pointer-events-auto flex items-center cursor-pointer justify-start bg-[#ffffff14] hover:bg-[rgba(255,255,255,0.15)] backdrop-blur-md gap-x-2.5 p-2.5 font-main text-white rounded-[12.8px] w-[320px] h-26.25">
           <div className="flex justify-center items-center rounded-lg w-21.25 h-21.25 bg-white/10 shrink-0">
             <CalendarCheck size={28} className="text-white/70" />
           </div>
