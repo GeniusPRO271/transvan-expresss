@@ -4,6 +4,8 @@ import { Header } from "@/components/header";
 import { WhatsAppButton } from "@/components/whatsapp-button";
 import { Plus_Jakarta_Sans, Instrument_Serif } from "next/font/google";
 import Footer from "@/components/footer";
+import { Analytics } from "@vercel/analytics/next";
+import { SpeedInsights } from "@vercel/speed-insights/next";
 
 const jakartaSans = Plus_Jakarta_Sans({
   subsets: ["latin"],
@@ -149,6 +151,8 @@ export default function RootLayout({
         {children}
         <div className="hidden lg:block"><Footer /></div>
         <WhatsAppButton />
+        <Analytics />
+        <SpeedInsights />
       </body>
     </html>
   );
