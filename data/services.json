@@ -55,8 +55,9 @@
       "Paradas fotográficas"
     ],
     "gallery": [
-      "/images/transfer-valparaiso/Gemini_Generated_Image_j9jz49j9jz49j9jz.png",
-      "/images/trans-express.png"
+      "/images/transfer-valparaiso/valparaiso1.jpg",
+      "/images/transfer-valparaiso/valparaiso2.jpg",
+      "/images/transfer-valparaiso/valparaiso3.jpg"
     ]
   },
   {
@@ -86,14 +87,14 @@
     ],
     "gallery": [
       "/images/transfer-aeropuerto/Gemini_Generated_Image_x2hdoyx2hdoyx2hd.png",
-      "/images/trans-express.png"
+      "/images/transfer-aeropuerto/airport1.png"
     ]
   },
   {
     "id": "transfer-valle-nevado",
     "title": "Transfer Valle Nevado",
     "shortDesc": "Traslado privado desde Santiago a Valle Nevado, el centro de ski más grande de Sudamérica.",
-    "cardImage": "/images/transfer-ski/trans-centro-de-ski.jpg",
+    "cardImage": "/images/transfer-valle-nevado/vallenevado1.jpeg",
     "capacity": "8, 10, 16 o 19 pasajeros",
     "minReservation": "Reserva instantánea",
     "languages": [
@@ -115,15 +116,16 @@
       "Espacio para equipaje de ski"
     ],
     "gallery": [
-      "/images/transfer-ski/trans-centro-de-ski.jpg",
-      "/images/transfer-ski/trans-hacia-centro-de-ski.png"
+      "/images/transfer-valle-nevado/vallenevado1.jpeg",
+      "/images/transfer-valle-nevado/valle-nevado2.jpg",
+      "/images/transfer-valle-nevado/valle-nevado3.jpeg"
     ]
   },
   {
     "id": "transfer-el-colorado",
     "title": "Transfer El Colorado",
     "shortDesc": "Van privada de Santiago a El Colorado: 20 pistas para todos los niveles, a 45 min del centro.",
-    "cardImage": "/images/transfer-ski/trans-centro-de-ski.jpg",
+    "cardImage": "/images/transfer-el-colorado/elcolorado1.jpg",
     "capacity": "8, 10, 16 o 19 pasajeros",
     "minReservation": "Reserva instantánea",
     "languages": [
@@ -145,15 +147,16 @@
       "Espacio para equipaje de ski"
     ],
     "gallery": [
-      "/images/transfer-ski/trans-centro-de-ski.jpg",
-      "/images/transfer-ski/trans-hacia-centro-de-ski.png"
+      "/images/transfer-el-colorado/elcolorado1.jpg",
+      "/images/transfer-el-colorado/elcolorado2.jpg",
+      "/images/transfer-el-colorado/elcolorado3.jpg"
     ]
   },
   {
     "id": "transfer-la-parva",
     "title": "Transfer La Parva",
     "shortDesc": "Transfer exclusivo a La Parva, el centro de ski más privado y sofisticado de los Andes.",
-    "cardImage": "/images/transfer-ski/trans-hacia-centro-de-ski.png",
+    "cardImage": "/images/transfer-la-parva/la-parva1.jpeg",
     "capacity": "8, 10, 16 o 19 pasajeros",
     "minReservation": "Reserva instantánea",
     "languages": [
@@ -175,15 +178,16 @@
       "Espacio para equipaje de ski"
     ],
     "gallery": [
-      "/images/transfer-ski/trans-hacia-centro-de-ski.png",
-      "/images/transfer-ski/trans-centro-de-ski.jpg"
+      "/images/transfer-la-parva/la-parva1.jpeg",
+      "/images/transfer-la-parva/laparva2.jpeg",
+      "/images/transfer-la-parva/laparva3.jpg"
     ]
   },
   {
     "id": "vina-del-mar",
     "title": "Viña del Mar",
     "shortDesc": "Descubre la Ciudad Jardín con un transfer privado a tu medida.",
-    "cardImage": "/images/transfer-valparaiso/Gemini_Generated_Image_j9jz49j9jz49j9jz.png",
+    "cardImage": "/images/transfer-vina/Gemini_Generated_Image_j9jz49j9jz49j9jz.png",
     "capacity": "8, 10, 16 o 19 pasajeros",
     "minReservation": "Reserva instantánea",
     "languages": [
@@ -205,8 +209,9 @@
       "Equipaje incluido"
     ],
     "gallery": [
-      "/images/transfer-valparaiso/Gemini_Generated_Image_j9jz49j9jz49j9jz.png",
-      "/images/trans-express.png"
+      "/images/transfer-vina/Gemini_Generated_Image_j9jz49j9jz49j9jz.png",
+      "/images/transfer-vina/vina2.jpg",
+      "/images/transfer-vina/vina3.jpeg"
     ]
   },
   {
@@ -235,7 +240,7 @@
     ],
     "gallery": [
       "/images/tour-embalse-del-yeso/Gemini_Generated_Image_vhswwevhswwevhsw.png",
-      "/images/trans-express.png"
+      "/images/tour-embalse-del-yeso/yeso2.jpg"
     ]
   },
   {
@@ -265,7 +270,8 @@
     ],
     "gallery": [
       "/images/tour-santiago/Gemini_Generated_Image_lbhlmrlbhlmrlbhl.png",
-      "/images/trans-express.png"
+      "/images/tour-santiago/santiago2.jpg",
+      "/images/tour-santiago/santiago3.jpg"
     ]
   },
   {
@@ -295,14 +301,15 @@
     ],
     "gallery": [
       "/images/tour-vinedos/Gemini_Generated_Image_d4v9bmd4v9bmd4v9.png",
-      "/images/trans-express.png"
+      "/images/tour-vinedos/vino2.jpeg",
+      "/images/tour-vinedos/vino3.webp"
     ]
   },
   {
     "id": "parque-safari",
     "title": "Parque safari",
     "shortDesc": "Un día de aventura familiar en el Safari Park de Rancagua.",
-    "cardImage": "/images/tour-safari/Gemini_Generated_Image_i4jlwei4jlwei4jl.png",
+    "cardImage": "/images/tour-safari/safari1.png",
     "capacity": "8, 10, 16 o 19 pasajeros",
     "minReservation": "Reserva instantánea",
     "languages": [
@@ -323,15 +330,16 @@
       "Horario de retorno flexible"
     ],
     "gallery": [
-      "/images/tour-safari/Gemini_Generated_Image_i4jlwei4jlwei4jl.png",
-      "/images/trans-express.png"
+      "/images/tour-safari/safari1.png",
+      "/images/tour-safari/safari2.jpg",
+      "/images/tour-safari/safari3.jpg"
     ]
   },
   {
     "id": "portillo-laguna-del-inca",
     "title": "Portillo y Laguna del Inca",
     "shortDesc": "Visita el legendario resort de montaña y la misteriosa laguna.",
-    "cardImage": "/images/transfer-ski/trans-centro-de-ski.jpg",
+    "cardImage": "/images/transfer-portillo-laguna-del-inca/portillolaguna1.jpeg",
     "capacity": "8, 10, 16 o 19 pasajeros",
     "minReservation": "Reserva con 24 hrs de anticipación",
     "languages": [
@@ -353,8 +361,9 @@
       "Verificación de condiciones de ruta"
     ],
     "gallery": [
-      "/images/transfer-ski/trans-centro-de-ski.jpg",
-      "/images/transfer-ski/trans-hacia-centro-de-ski.png"
+      "/images/transfer-portillo-laguna-del-inca/portillolaguna1.jpeg",
+      "/images/transfer-portillo-laguna-del-inca/portillalaguna2.webp",
+      "/images/transfer-portillo-laguna-del-inca/portillolaguna3.jpeg"
     ]
   },
   {
@@ -390,7 +399,7 @@
     "id": "van-matrimonios",
     "title": "Van matrimonios",
     "shortDesc": "Traslado elegante y confiable para el día más especial.",
-    "cardImage": "/images/trans-express.png",
+    "cardImage": "/images/transfer-matrimonio/matri01.jpg",
     "capacity": "8, 10, 16 o 19 pasajeros",
     "minReservation": "Reserva con 72 hrs de anticipación",
     "languages": [
@@ -412,8 +421,9 @@
       "Rutas alternativas previstas"
     ],
     "gallery": [
-      "/images/trans-express.png",
-      "/images/transfer-valparaiso/Gemini_Generated_Image_j9jz49j9jz49j9jz.png"
+      "/images/transfer-matrimonio/matri01.jpg",
+      "/images/transfer-matrimonio/matri2.jpg",
+      "/images/transfer-matrimonio/matri3.jpg"
     ]
   }
 ]
