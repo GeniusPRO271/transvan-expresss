@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   title: "Nosotros — Quiénes Somos",
   description:
     "Conoce a Transvan Express: más de 5 años ofreciendo traslados privados y tours en Chile con puntualidad, seguridad y cobertura en toda la Región Metropolitana y más.",
-  alternates: { canonical: "/nosotros" },
+  alternates: { canonical: "/nosotros", languages: { "es-CL": "/nosotros" } },
 };
 
 export default function About() {
@@ -41,7 +41,7 @@ export default function About() {
         <div>
           <div className="flex flex-col lg:flex-row gap-y-[14px] px-4 pt-[90px]">
             <div className="flex-1 w-full">
-              <span className="text-sm font-medium text-white">Nuestra Mision</span>
+              <h2 className="text-sm font-medium text-white">Nuestra Misión</h2>
             </div>
 
             <div className="flex flex-3 justify-end items-center">
@@ -70,13 +70,13 @@ export default function About() {
           <div className="flex flex-col md:flex-row  px-1 pt-22.5">
             <div className="flex-1 w-full md:border rounded-3xl border-[#2A2A2A]">
               <div className="flex-1 w-full p-4.5 pl-3 ">
-                <span className="text-sm font-medium text-white">Nuestro Pilares</span>
+                <h2 className="text-sm font-medium text-white">Nuestros Pilares</h2>
               </div>
             </div>
             <div className="flex flex-3 flex-col justify-end items-center">
               <div className="w-full flex-col lg:flex-row text-white font-medium font-main flex border rounded-3xl border-[#2A2A2A] p-[18px]">
                 <div className="w-full text-[33px] font-light font-secondary">
-                  <p>Puntualidad</p>
+                  <h3>Puntualidad</h3>
                 </div>
                 <div className="text-[14px] lg:max-w-[282px] font-light font-main">
                   <p>Todos nuestros vehículos cuentan con sistema GPS en tiempo real, lo que nos permite garantizar traslados puntuales desde y hacia el Aeropuerto de Santiago, centros de ski, viñedos y cualquier destino en Chile.</p>
@@ -84,7 +84,7 @@ export default function About() {
               </div>
               <div className="w-full flex-col lg:flex-row text-white font-medium font-main flex border rounded-3xl border-[#2A2A2A] p-[18px]">
                 <div className="w-full text-[33px] font-light font-secondary">
-                  <p>Seguridad</p>
+                  <h3>Seguridad</h3>
                 </div>
                 <div className="text-[14px] lg:max-w-[282px] font-light font-main">
                   <p>Nuestros vehículos están inscritos en el Ministerio de Transporte y Telecomunicaciones de Chile. Conductores capacitados, con vasta experiencia en rutas urbanas e interurbanas, para que tu viaje sea seguro en todo momento.</p>
@@ -92,7 +92,7 @@ export default function About() {
               </div>
               <div className="w-full flex-col lg:flex-row text-white font-medium font-main flex border rounded-3xl border-[#2A2A2A] p-[18px]">
                 <div className="w-full text-[33px] font-light font-secondary">
-                  <p>Cobertura</p>
+                  <h3>Cobertura</h3>
                 </div>
                 <div className="text-[14px] lg:max-w-[282px] font-light font-main">
                   <p>Operamos en toda la región metropolitana y más allá — Aeropuerto de Santiago, Viña del Mar, Valparaíso, Valle Nevado, Farellones, Portillo, Cajón del Maipo, Pomaire e Isla Negra, entre otros destinos.</p>
@@ -101,7 +101,7 @@ export default function About() {
 
               <div className="w-full flex-col lg:flex-row text-white font-medium font-main flex border rounded-3xl border-[#2A2A2A] p-[18px]">
                 <div className="w-full text-[33px] font-light font-secondary">
-                  <p>Comodidad</p>
+                  <h3>Comodidad</h3>
                 </div>
                 <div className="text-[14px] lg:max-w-[282px] font-light font-main">
                   <p>Viaja en vans full equipo con aire acondicionado y Wi-Fi a bordo. Contamos con vehículos de distintas capacidades — hasta 10 y 16 pasajeros — ideales para grupos familiares, turistas y eventos corporativos.</p>

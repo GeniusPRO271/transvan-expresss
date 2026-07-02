@@ -14,7 +14,7 @@ export const metadata: Metadata = {
   title: "Contáctanos — Reserva tu Transfer",
   description:
     "Contacta a Transvan Express por WhatsApp o email para reservar tu transfer privado o tour en Chile. Atención personalizada y respuesta inmediata.",
-  alternates: { canonical: "/contactanos" },
+  alternates: { canonical: "/contactanos", languages: { "es-CL": "/contactanos" } },
 };
 
 export default function Contact() {

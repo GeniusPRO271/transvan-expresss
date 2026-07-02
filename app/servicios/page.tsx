@@ -8,7 +8,7 @@ export const metadata: Metadata = {
   title: "Servicios — Transfers y Tours en Chile",
   description:
     "Explora todos los servicios de Transvan Express: transfer aeropuerto Santiago, centros de ski, Valparaíso, Viña del Mar, tour Embalse del Yeso, viñedos, city tour y más.",
-  alternates: { canonical: "/servicios" },
+  alternates: { canonical: "/servicios", languages: { "es-CL": "/servicios" } },
 };
 
 
@@ -50,7 +50,7 @@ export default function Service() {
       <div className="mt-[85px] p-4">
         <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-[2px]">
           {services.map((service) => (
-            <Link key={service.id} href={`/servicios/${service.id}`} style={{ aspectRatio: '1 / 1.314' }} className="relative flex justify-center items-end cursor-pointer rounded-[20px] overflow-hidden">
+            <Link key={service.id} href={`/servicios/${service.id}`} className="[aspect-ratio:1/1.314] relative flex justify-center items-end cursor-pointer rounded-[20px] overflow-hidden">
               <Image
                 src={service.cardImage}
                 alt={service.title}

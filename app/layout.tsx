@@ -6,6 +6,7 @@ import { Plus_Jakarta_Sans, Instrument_Serif } from "next/font/google";
 import Footer from "@/components/footer";
 import { Analytics } from "@vercel/analytics/next";
 import { SpeedInsights } from "@vercel/speed-insights/next";
+import Script from "next/script";
 
 const jakartaSans = Plus_Jakarta_Sans({
   subsets: ["latin"],
@@ -82,6 +83,7 @@ export const metadata: Metadata = {
   },
   alternates: {
     canonical: "/",
+    languages: { "es-CL": "/" },
   },
   robots: {
     index: true,
@@ -94,6 +96,20 @@ export const metadata: Metadata = {
       "max-snippet": -1,
     },
   },
+};
+
+const organizationJsonLd = {
+  "@context": "https://schema.org",
+  "@type": "Organization",
+  name: "Transvan Express",
+  url: "https://www.transvanexpresss.cl",
+  logo: "https://www.transvanexpresss.cl/images/trans-express.png",
+  email: "transvanexpresss@gmail.com",
+  telephone: ["+56992912194", "+56988101802"],
+  sameAs: [
+    "https://www.instagram.com/transvanexpresss/",
+    "https://www.facebook.com/people/Transvanexpressscl/100065082180487/",
+  ],
 };
 
 const jsonLd = {
@@ -147,12 +163,37 @@ export default function RootLayout({
           type="application/ld+json"
           dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
         />
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(organizationJsonLd) }}
+        />
         <Header />
         {children}
         <div className="hidden lg:block"><Footer /></div>
         <WhatsAppButton />
         <Analytics />
         <SpeedInsights />
+        {/* Replace G-XXXXXXXXXX with your GA4 Measurement ID */}
+        <Script
+          src="https://www.googletagmanager.com/gtag/js?id=G-XXXXXXXXXX"
+          strategy="afterInteractive"
+        />
+        <Script id="google-analytics" strategy="afterInteractive">{`
+          window.dataLayer = window.dataLayer || [];
+          function gtag(){dataLayer.push(arguments);}
+          gtag('js', new Date());
+          gtag('config', 'G-XXXXXXXXXX');
+        `}</Script>
+        {/* Replace XXXXXXXXXXXXXXXXXX with your Facebook Pixel ID */}
+        <Script id="facebook-pixel" strategy="afterInteractive">{`
+          !function(f,b,e,v,n,t,s){if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+          n.callMethod.apply(n,arguments):n.queue.push(arguments)};if(!f._fbq)f._fbq=n;
+          n.push=n;n.loaded=!0;n.version='2.0';n.queue=[];t=b.createElement(e);t.async=!0;
+          t.src=v;s=b.getElementsByTagName(e)[0];s.parentNode.insertBefore(t,s)}
+          (window,document,'script','https://connect.facebook.net/en_US/fbevents.js');
+          fbq('init','XXXXXXXXXXXXXXXXXX');
+          fbq('track','PageView');
+        `}</Script>
       </body>
     </html>
   );

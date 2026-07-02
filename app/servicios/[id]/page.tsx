@@ -20,7 +20,7 @@ export async function generateMetadata(
   return {
     title: service.title,
     description: service.description[0].slice(0, 160),
-    alternates: { canonical: `/servicios/${service.id}` },
+    alternates: { canonical: `/servicios/${service.id}`, languages: { "es-CL": `/servicios/${service.id}` } },
     openGraph: {
       title: `${service.title} | Transvan Express`,
       description: service.description[0].slice(0, 160),
@@ -55,11 +55,40 @@ export default async function Service({ params }: { params: Promise<{ id: string
     availableLanguage: service.languages,
   };
 
+  const breadcrumbJsonLd = {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    itemListElement: [
+      {
+        "@type": "ListItem",
+        position: 1,
+        name: "Inicio",
+        item: "https://www.transvanexpresss.cl",
+      },
+      {
+        "@type": "ListItem",
+        position: 2,
+        name: "Servicios",
+        item: "https://www.transvanexpresss.cl/servicios",
+      },
+      {
+        "@type": "ListItem",
+        position: 3,
+        name: service.title,
+        item: `https://www.transvanexpresss.cl/servicios/${service.id}`,
+      },
+    ],
+  };
+
   return (
     <main className="w-full">
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(serviceJsonLd) }}
+      />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbJsonLd) }}
       />
       <div>
         <div className="px-4 pt-8 pb-4">
@@ -95,7 +124,7 @@ export default async function Service({ params }: { params: Promise<{ id: string
         <div className="">
           <div className="flex flex-col md:flex-row gap-y-[14px] md:gap-y-0 px-4 pt-[90px]">
             <div className="">
-              <span className="text-sm font-medium text-white">Detalles</span>
+              <h2 className="text-sm font-medium text-white">Detalles</h2>
             </div>
 
             <div className="flex flex-1 justify-end items-center">
@@ -111,7 +140,7 @@ export default async function Service({ params }: { params: Promise<{ id: string
 
           <div className="flex flex-col md:flex-row gap-y-[14px] md:gap-y-0 px-4 pt-[90px]">
             <div className="">
-              <span className="text-sm font-medium text-white">Servicios Incluidos</span>
+              <h2 className="text-sm font-medium text-white">Servicios Incluidos</h2>
             </div>
 
             <div className="flex flex-1 justify-end items-center">
