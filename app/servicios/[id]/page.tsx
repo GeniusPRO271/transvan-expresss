@@ -24,12 +24,13 @@ export async function generateMetadata(
     openGraph: {
       title: `${service.title} | Transvan Express`,
       description: service.description[0].slice(0, 160),
-      images: [
-        {
-          url: service.cardImage,
-          alt: service.title,
-        },
-      ],
+      images: [{ url: service.cardImage, alt: service.title }],
+    },
+    twitter: {
+      card: "summary_large_image",
+      title: `${service.title} | Transvan Express`,
+      description: service.description[0].slice(0, 160),
+      images: [service.cardImage],
     },
   };
 }
@@ -40,8 +41,26 @@ export default async function Service({ params }: { params: Promise<{ id: string
 
   if (!service) notFound();
 
+  const serviceJsonLd = {
+    "@context": "https://schema.org",
+    "@type": "Service",
+    name: service.title,
+    description: service.description[0],
+    provider: {
+      "@type": "LocalBusiness",
+      name: "Transvan Express",
+      url: "https://www.transvanexpresss.cl",
+    },
+    areaServed: { "@type": "Country", name: "Chile" },
+    availableLanguage: service.languages,
+  };
+
   return (
     <main className="w-full">
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(serviceJsonLd) }}
+      />
       <div>
         <div className="px-4 pt-8 pb-4">
           <ServiceDetailHero
@@ -51,8 +70,8 @@ export default async function Service({ params }: { params: Promise<{ id: string
             languages={service.languages}
             cardImage={service.cardImage}
           />
-          <div className="hidden lg:block absolute right-[7px] bottom-0 h-[calc(100vh-10px)] items-stretch max-w-[320px] w-full justify-end z-50 scrollbar-hide">
-            <Link href={"https://form.typeform.com/to/MIwhR07i"} className="flex items-center cursor-pointer justify-start bg-[#ffffff14] hover:bg-[rgba(255,255,255,0.15)] backdrop-blur-md gap-x-2.5 p-2.5 font-main text-white rounded-[12.8px] w-[320px] h-26.25">
+          <div className="hidden lg:flex pointer-events-none absolute right-[7px] bottom-0 h-[calc(100vh-10px)] items-stretch max-w-[320px] w-full justify-end z-50 scrollbar-hide">
+            <Link href={"https://form.typeform.com/to/MIwhR07i"} className="pointer-events-auto flex items-center cursor-pointer justify-start bg-[#ffffff14] hover:bg-[rgba(255,255,255,0.15)] backdrop-blur-md gap-x-2.5 p-2.5 font-main text-white rounded-[12.8px] w-[320px] h-26.25">
               <div className="flex justify-center items-center rounded-lg w-21.25 h-21.25 bg-white/10 shrink-0">
                 <CalendarCheck size={28} className="text-white/70" />
               </div>

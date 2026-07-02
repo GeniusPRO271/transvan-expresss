@@ -30,7 +30,7 @@ export function HeroText() {
 
   return (
     <div ref={containerRef} className="text-white">
-      <p className="font-main font-medium text-[40px] md:text-[60px] leading-[100%]">
+      <h1 className="font-main font-medium text-[40px] md:text-[60px] leading-[100%]">
         <span className="word inline-block font-secondary italic text-[50px] md:text-[70px]">Transfers</span>{' '}
         <span className="word inline-block">compartidos</span>
         {'  '}<br />
@@ -40,7 +40,7 @@ export function HeroText() {
         <br />
         <span className="word inline-block">cada</span>{' '}
         <span className="word inline-block font-secondary italic text-[50px] md:text-[70px]">viaje</span>
-      </p>
+      </h1>
       <div className="w-full flex items-center justify-end">
         <p className="font-main text-sm max-w-51.5 leading-[120%] font-normal pt-5">
           <span className="sub-line block">Elige entre transfers</span>

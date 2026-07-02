@@ -83,7 +83,7 @@ export function ServiceCards({ services }: { services: Service[] }) {
             <div className="flex flex-col justify-center items-start h-full">
               <div className="flex justify-start items-start h-full w-full">
                 <div className="flex justify-start items-center w-full">
-                  <p className="font-medium text-[16px] w-full">{service.title}</p>
+                  <h2 className="font-medium text-[16px] w-full">{service.title}</h2>
                   <div className="relative w-4 h-4 overflow-hidden shrink-0">
                     <ArrowRight
                       size={16}
