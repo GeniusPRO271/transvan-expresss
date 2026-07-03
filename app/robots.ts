@@ -6,6 +6,6 @@ export default function robots(): MetadataRoute.Robots {
       userAgent: "*",
       allow: "/",
     },
-    sitemap: "https://www.transporte-eventos.cl/sitemap.xml",
+    sitemap: "https://transporte-eventos.cl/sitemap.xml",
   };
 }

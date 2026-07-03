@@ -22,7 +22,7 @@ const instrumentSerif = Instrument_Serif({
 });
 
 export const metadata: Metadata = {
-  metadataBase: new URL("https://www.transporte-eventos.cl"),
+  metadataBase: new URL("https://transporte-eventos.cl"),
   title: {
     default: "Transvan Express — Transfer Privado en Chile",
     template: "%s | Transvan Express",
@@ -102,7 +102,7 @@ export const metadata: Metadata = {
   openGraph: {
     type: "website",
     locale: "es_CL",
-    url: "https://www.transporte-eventos.cl",
+    url: "https://transporte-eventos.cl",
     siteName: "Transvan Express",
     title: "Transvan Express — Transfer Privado en Chile",
     description:
@@ -144,8 +144,8 @@ const organizationJsonLd = {
   "@context": "https://schema.org",
   "@type": "Organization",
   name: "Transvan Express",
-  url: "https://www.transporte-eventos.cl",
-  logo: "https://www.transporte-eventos.cl/images/trans-express.png",
+  url: "https://transporte-eventos.cl",
+  logo: "https://transporte-eventos.cl/images/trans-express.png",
   email: "transvanexpresss@gmail.com",
   telephone: ["+56992912194", "+56988101802"],
   sameAs: [
@@ -158,7 +158,7 @@ const jsonLd = {
   "@context": "https://schema.org",
   "@type": ["LocalBusiness", "TouristInformationCenter"],
   name: "Transvan Express",
-  url: "https://www.transporte-eventos.cl",
+  url: "https://transporte-eventos.cl",
   telephone: ["+56992912194", "+56988101802"],
   email: "transvanexpresss@gmail.com",
   address: {

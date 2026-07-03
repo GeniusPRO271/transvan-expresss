@@ -67,7 +67,7 @@ export default async function Service({ params }: { params: Promise<{ id: string
     provider: {
       "@type": "LocalBusiness",
       name: "Transvan Express",
-      url: "https://www.transporte-eventos.cl",
+      url: "https://transporte-eventos.cl",
     },
     areaServed: { "@type": "Country", name: "Chile" },
     availableLanguage: service.languages,
@@ -81,19 +81,19 @@ export default async function Service({ params }: { params: Promise<{ id: string
         "@type": "ListItem",
         position: 1,
         name: "Inicio",
-        item: "https://www.transporte-eventos.cl",
+        item: "https://transporte-eventos.cl",
       },
       {
         "@type": "ListItem",
         position: 2,
         name: "Servicios",
-        item: "https://www.transporte-eventos.cl/servicios",
+        item: "https://transporte-eventos.cl/servicios",
       },
       {
         "@type": "ListItem",
         position: 3,
         name: service.title,
-        item: `https://www.transporte-eventos.cl/servicios/${service.id}`,
+        item: `https://transporte-eventos.cl/servicios/${service.id}`,
       },
     ],
   };
