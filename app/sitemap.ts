@@ -1,7 +1,7 @@
 import type { MetadataRoute } from "next";
 import services from "@/data/services.json";
 
-const BASE_URL = "https://www.transvanexpresss.cl";
+const BASE_URL = "https://www.transporte-eventos.cl";
 
 export default function sitemap(): MetadataRoute.Sitemap {
   const serviceRoutes = services.map((service) => ({

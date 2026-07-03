@@ -62,8 +62,8 @@
   },
   {
     "id": "transfer-aeropuerto",
-    "title": "Transfer aeropuerto",
-    "shortDesc": "Llegada o salida sin estrés con conductor esperándote en el terminal.",
+    "title": "Transfer Aeropuerto Santiago",
+    "shortDesc": "Transfer al Aeropuerto Santiago (SCL): seguimiento de vuelo en tiempo real y conductor esperándote en llegadas.",
     "cardImage": "/images/transfer-aeropuerto/Gemini_Generated_Image_x2hdoyx2hdoyx2hd.png",
     "capacity": "8, 10, 16 o 19 pasajeros",
     "minReservation": "Reserva instantánea",
@@ -186,7 +186,7 @@
   {
     "id": "vina-del-mar",
     "title": "Viña del Mar",
-    "shortDesc": "Descubre la Ciudad Jardín con un transfer privado a tu medida.",
+    "shortDesc": "Tour y transfer privado o compartido a Viña del Mar, la Ciudad Jardín de Chile.",
     "cardImage": "/images/transfer-vina/Gemini_Generated_Image_j9jz49j9jz49j9jz.png",
     "capacity": "8, 10, 16 o 19 pasajeros",
     "minReservation": "Reserva instantánea",
@@ -217,7 +217,7 @@
   {
     "id": "tour-embalse-del-yeso",
     "title": "Tour Embalse del Yeso",
-    "shortDesc": "Una jornada única al embalse de aguas turquesas en el cajón del Maipo.",
+    "shortDesc": "Tour al Embalse del Yeso en el Cajón del Maipo: aguas turquesas a 2.475 m de altitud.",
     "cardImage": "/images/tour-embalse-del-yeso/Gemini_Generated_Image_vhswwevhswwevhsw.png",
     "capacity": "8, 10, 16 o 19 pasajeros",
     "minReservation": "Reserva con 48 hrs de anticipación",
@@ -245,8 +245,8 @@
   },
   {
     "id": "city-tour-santiago",
-    "title": "City tour Santiago",
-    "shortDesc": "Recorre los barrios más icónicos de Santiago con un conductor-guía.",
+    "title": "City Tour Santiago",
+    "shortDesc": "City Tour Santiago: recorre los barrios más icónicos con conductor-guía bilingüe privado o compartido.",
     "cardImage": "/images/tour-santiago/Gemini_Generated_Image_lbhlmrlbhlmrlbhl.png",
     "capacity": "8, 10, 16 o 19 pasajeros",
     "minReservation": "Reserva instantánea",
@@ -276,8 +276,8 @@
   },
   {
     "id": "tour-vinedos",
-    "title": "Tour viñedos",
-    "shortDesc": "Visita las mejores viñas del Valle Central con catas incluidas.",
+    "title": "Tour Viñedos",
+    "shortDesc": "Tour privado o compartido a los viñedos más reconocidos del Valle Central de Chile.",
     "cardImage": "/images/tour-vinedos/Gemini_Generated_Image_d4v9bmd4v9bmd4v9.png",
     "capacity": "8, 10, 16 o 19 pasajeros",
     "minReservation": "Reserva con 48 hrs de anticipación",
@@ -307,8 +307,8 @@
   },
   {
     "id": "parque-safari",
-    "title": "Parque safari",
-    "shortDesc": "Un día de aventura familiar en el Safari Park de Rancagua.",
+    "title": "Parque Safari",
+    "shortDesc": "Transfer y tour al Parque Safari de Rancagua: una experiencia de aventura familiar en Chile.",
     "cardImage": "/images/tour-safari/safari1.png",
     "capacity": "8, 10, 16 o 19 pasajeros",
     "minReservation": "Reserva instantánea",
@@ -338,7 +338,7 @@
   {
     "id": "portillo-laguna-del-inca",
     "title": "Portillo y Laguna del Inca",
-    "shortDesc": "Visita el legendario resort de montaña y la misteriosa laguna.",
+    "shortDesc": "Transfer a Portillo y Laguna del Inca: ski resort de fama mundial en los Andes chilenos.",
     "cardImage": "/images/transfer-portillo-laguna-del-inca/portillolaguna1.jpeg",
     "capacity": "8, 10, 16 o 19 pasajeros",
     "minReservation": "Reserva con 24 hrs de anticipación",
@@ -369,7 +369,7 @@
   {
     "id": "pomaire-isla-negra",
     "title": "Pomaire e Isla Negra",
-    "shortDesc": "Artesanía en barro y la casa museo de Pablo Neruda en un mismo día.",
+    "shortDesc": "Tour a Pomaire e Isla Negra: artesanía en barro y Casa Museo Pablo Neruda en un día.",
     "cardImage": "/images/pomaire-isla-negra/Gemini_Generated_Image_nlkddjnlkddjnlkd.png",
     "capacity": "8, 10, 16 o 19 pasajeros",
     "minReservation": "Reserva con 24 hrs de anticipación",
@@ -397,8 +397,8 @@
   },
   {
     "id": "van-matrimonios",
-    "title": "Van matrimonios",
-    "shortDesc": "Traslado elegante y confiable para el día más especial.",
+    "title": "Van Matrimonios",
+    "shortDesc": "Van privada para matrimonios y eventos corporativos en Santiago — traslado elegante y confiable.",
     "cardImage": "/images/transfer-matrimonio/matri01.jpg",
     "capacity": "8, 10, 16 o 19 pasajeros",
     "minReservation": "Reserva con 72 hrs de anticipación",

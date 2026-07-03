@@ -22,7 +22,7 @@ const instrumentSerif = Instrument_Serif({
 });
 
 export const metadata: Metadata = {
-  metadataBase: new URL("https://www.transvanexpresss.cl"),
+  metadataBase: new URL("https://www.transporte-eventos.cl"),
   title: {
     default: "Transvan Express — Transfer Privado en Chile",
     template: "%s | Transvan Express",
@@ -30,37 +30,79 @@ export const metadata: Metadata = {
   description:
     "Transvan Express ofrece traslados privados y tours en Chile: aeropuerto Santiago, centros de ski, Valparaíso, Viña del Mar, viñedos y más. Reserva ahora.",
   keywords: [
-    "transfer privado Santiago",
-    "transfer compartido Santiago",
+    // Brand
+    "Transvan Express",
+    "Transvan Express Chile",
+    // Aeropuerto
+    "transfer aeropuerto Santiago",
+    "transfer privado aeropuerto Santiago",
+    "transfer compartido aeropuerto Santiago",
     "traslado aeropuerto Santiago",
+    "transfer aeropuerto SCL",
     "transfer aeropuerto Chile",
-    "traslado privado Chile",
-    "transfer centros de ski",
-    "Valle Nevado transfer",
+    // Farellones
     "transfer Farellones",
-    "transfer La Parva",
+    "transfer privado Farellones",
+    "transfer compartido Farellones",
+    "traslado Farellones Santiago",
+    // Valle Nevado
+    "transfer Valle Nevado",
+    "transfer privado Valle Nevado",
+    "transfer compartido Valle Nevado",
+    "traslado Valle Nevado Santiago",
+    // El Colorado
     "transfer El Colorado",
+    "transfer privado El Colorado",
+    "transfer compartido El Colorado",
+    // La Parva
+    "transfer La Parva",
+    "transfer privado La Parva",
+    // Portillo
     "transfer Portillo",
-    "transfer Valle Nevado ski",
+    "transfer Portillo ski",
+    "Laguna del Inca tour",
+    // Ski general
+    "transfer centros de ski Santiago",
+    "traslado ski Santiago",
+    "transfer ski Chile",
+    // Valparaíso / Viña
     "transfer Valparaíso",
+    "transfer privado Valparaíso",
+    "transfer compartido Valparaíso",
     "transfer Viña del Mar",
+    "tour Viña del Mar",
+    // Tours
     "tour Embalse del Yeso",
+    "tour Cajón del Maipo",
     "city tour Santiago",
+    "city tour Santiago Chile",
     "tour viñedos Chile",
+    "tour viñedos Valle Central",
+    "tour Parque Safari Rancagua",
     "tour safari Rancagua",
     "tour Pomaire Isla Negra",
+    "excursión Pomaire",
+    "excursión Isla Negra Pablo Neruda",
+    // Eventos / matrimonios
     "van matrimonios Santiago",
-    "traslado ski Santiago",
-    "Transvan Express",
+    "van privada matrimonios Chile",
+    "traslado eventos Santiago",
+    // General
+    "transfer privado Santiago",
+    "transfer compartido Santiago",
+    "traslado privado Chile",
+    "tours privados Chile",
     "van privada Santiago",
+    "minivan privada Santiago",
     "transporte turístico Chile",
+    "traslado turístico Santiago",
   ],
   authors: [{ name: "Transvan Express" }],
   creator: "Transvan Express",
   openGraph: {
     type: "website",
     locale: "es_CL",
-    url: "https://www.transvanexpresss.cl",
+    url: "https://www.transporte-eventos.cl",
     siteName: "Transvan Express",
     title: "Transvan Express — Transfer Privado en Chile",
     description:
@@ -102,8 +144,8 @@ const organizationJsonLd = {
   "@context": "https://schema.org",
   "@type": "Organization",
   name: "Transvan Express",
-  url: "https://www.transvanexpresss.cl",
-  logo: "https://www.transvanexpresss.cl/images/trans-express.png",
+  url: "https://www.transporte-eventos.cl",
+  logo: "https://www.transporte-eventos.cl/images/trans-express.png",
   email: "transvanexpresss@gmail.com",
   telephone: ["+56992912194", "+56988101802"],
   sameAs: [
@@ -116,7 +158,7 @@ const jsonLd = {
   "@context": "https://schema.org",
   "@type": ["LocalBusiness", "TouristInformationCenter"],
   name: "Transvan Express",
-  url: "https://www.transvanexpresss.cl",
+  url: "https://www.transporte-eventos.cl",
   telephone: ["+56992912194", "+56988101802"],
   email: "transvanexpresss@gmail.com",
   address: {

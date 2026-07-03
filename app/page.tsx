@@ -35,7 +35,7 @@ const faqJsonLd = {
       name: "¿Cuántos pasajeros pueden viajar en una van?",
       acceptedAnswer: {
         "@type": "Answer",
-        text: "Disponemos de vans para hasta 10 y 16 pasajeros, ideales para grupos familiares, turistas y eventos corporativos.",
+        text: "Disponemos de vans de 8, 10, 16 y 19 pasajeros, ideales para grupos familiares, turistas y eventos corporativos.",
       },
     },
     {
@@ -84,7 +84,7 @@ export default function Home() {
           Para quienes quieren explorar Chile, ofrecemos tours exclusivos al Embalse del Yeso en el Cajón del Maipo, city tours por Santiago, visitas a viñedos, safari en Rancagua, y excursiones a Pomaire e Isla Negra. Todos nuestros vehículos cuentan con aire acondicionado, Wi-Fi y GPS en tiempo real.
         </p>
         <p className="font-main font-light text-xs leading-relaxed text-white/40">
-          Con más de 5 años de experiencia y 200+ traslados completados, atendemos en español, inglés y portugués. Nuestras vans tienen capacidad para grupos de hasta 16 pasajeros, perfectas para familias, grupos de turistas y eventos corporativos.
+          Con más de 5 años de experiencia y 200+ traslados completados, atendemos en español, inglés y portugués. Nuestras vans tienen capacidad para grupos de 8, 10, 16 o 19 pasajeros, perfectas para familias, grupos de turistas y eventos corporativos.
         </p>
       </section>
     </main>

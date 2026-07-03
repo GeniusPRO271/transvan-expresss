@@ -6,6 +6,23 @@ import { notFound } from "next/navigation";
 import services from "@/data/services.json";
 import { ServiceDetailHero } from "@/components/service-detail-hero";
 
+const serviceKeywords: Record<string, string[]> = {
+  "transfer-farellones": ["Transfer Farellones", "transfer privado Farellones", "transfer compartido Farellones", "traslado Farellones Santiago", "ski Farellones"],
+  "transfer-valparaiso": ["Transfer Valparaíso", "transfer privado Valparaíso", "transfer compartido Valparaíso", "traslado Valparaíso Santiago"],
+  "transfer-aeropuerto": ["Transfer Aeropuerto Santiago", "transfer privado aeropuerto SCL", "transfer compartido aeropuerto Santiago", "traslado aeropuerto Santiago"],
+  "transfer-valle-nevado": ["Transfer Valle Nevado", "transfer privado Valle Nevado", "transfer compartido Valle Nevado", "traslado Valle Nevado", "ski Valle Nevado Santiago"],
+  "transfer-el-colorado": ["Transfer El Colorado", "transfer privado El Colorado", "transfer compartido El Colorado", "ski El Colorado Santiago"],
+  "transfer-la-parva": ["Transfer La Parva", "transfer privado La Parva", "ski La Parva Santiago"],
+  "vina-del-mar": ["Tour Viña del Mar", "transfer Viña del Mar", "tour privado Viña del Mar", "Viña del Mar Santiago"],
+  "tour-embalse-del-yeso": ["Tour Embalse del Yeso", "excursión Embalse del Yeso", "tour Cajón del Maipo", "Cajón del Maipo Santiago"],
+  "city-tour-santiago": ["City Tour Santiago", "city tour Santiago Chile", "tour Santiago", "tour privado Santiago"],
+  "tour-vinedos": ["Tour viñedos Chile", "tour viñedos Valle Central", "tour privado viñedos Santiago"],
+  "parque-safari": ["Parque Safari Rancagua", "tour safari Rancagua", "transfer Parque Safari", "safari Chile"],
+  "portillo-laguna-del-inca": ["Transfer Portillo", "Portillo ski Santiago", "Laguna del Inca tour", "transfer Portillo Laguna del Inca"],
+  "pomaire-isla-negra": ["Tour Pomaire Isla Negra", "excursión Pomaire", "excursión Isla Negra", "Casa Museo Pablo Neruda"],
+  "van-matrimonios": ["Van matrimonios Santiago", "van privada matrimonios", "traslado matrimonios Chile", "van eventos corporativos Santiago"],
+};
+
 export function generateStaticParams() {
   return services.map((s) => ({ id: s.id }));
 }
@@ -20,6 +37,7 @@ export async function generateMetadata(
   return {
     title: service.title,
     description: service.description[0].slice(0, 160),
+    keywords: serviceKeywords[service.id] ?? [],
     alternates: { canonical: `/servicios/${service.id}`, languages: { "es-CL": `/servicios/${service.id}` } },
     openGraph: {
       title: `${service.title} | Transvan Express`,
@@ -49,7 +67,7 @@ export default async function Service({ params }: { params: Promise<{ id: string
     provider: {
       "@type": "LocalBusiness",
       name: "Transvan Express",
-      url: "https://www.transvanexpresss.cl",
+      url: "https://www.transporte-eventos.cl",
     },
     areaServed: { "@type": "Country", name: "Chile" },
     availableLanguage: service.languages,
@@ -63,19 +81,19 @@ export default async function Service({ params }: { params: Promise<{ id: string
         "@type": "ListItem",
         position: 1,
         name: "Inicio",
-        item: "https://www.transvanexpresss.cl",
+        item: "https://www.transporte-eventos.cl",
       },
       {
         "@type": "ListItem",
         position: 2,
         name: "Servicios",
-        item: "https://www.transvanexpresss.cl/servicios",
+        item: "https://www.transporte-eventos.cl/servicios",
       },
       {
         "@type": "ListItem",
         position: 3,
         name: service.title,
-        item: `https://www.transvanexpresss.cl/servicios/${service.id}`,
+        item: `https://www.transporte-eventos.cl/servicios/${service.id}`,
       },
     ],
   };
