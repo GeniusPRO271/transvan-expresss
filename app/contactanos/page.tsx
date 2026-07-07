@@ -50,13 +50,6 @@ export const metadata: Metadata = {
       "Reserva tu transfer privado o compartido en Chile por WhatsApp o email. Respuesta inmediata.",
     images: [{ url: "/images/trans-express.png", width: 1200, height: 630, alt: "Contacto Transvan Express" }],
   },
-  twitter: {
-    card: "summary_large_image",
-    title: "Contáctanos — Reserva tu Transfer | Transvan Express",
-    description:
-      "Reserva tu transfer privado o compartido en Chile por WhatsApp o email. Respuesta inmediata.",
-    images: ["/images/trans-express.png"],
-  },
 };
 
 export default function Contact() {

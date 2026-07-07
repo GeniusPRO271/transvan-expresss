@@ -116,13 +116,6 @@ export const metadata: Metadata = {
       },
     ],
   },
-  twitter: {
-    card: "summary_large_image",
-    title: "Transvan Express — Transfer Privado en Chile",
-    description:
-      "Traslados privados y tours en Chile. Aeropuerto, centros de ski, Valparaíso, Viña del Mar y mucho más.",
-    images: ["/images/trans-express.png"],
-  },
   alternates: {
     canonical: "/",
     languages: { "es-CL": "/" },

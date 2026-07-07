@@ -3,10 +3,12 @@ import services from "@/data/services.json";
 
 const BASE_URL = "https://transporte-eventos.cl";
 
+const LAST_MODIFIED = new Date("2026-07-07");
+
 export default function sitemap(): MetadataRoute.Sitemap {
   const serviceRoutes = services.map((service) => ({
     url: `${BASE_URL}/servicios/${service.id}`,
-    lastModified: new Date(),
+    lastModified: LAST_MODIFIED,
     changeFrequency: "monthly" as const,
     priority: 0.9,
   }));
@@ -14,25 +16,31 @@ export default function sitemap(): MetadataRoute.Sitemap {
   return [
     {
       url: BASE_URL,
-      lastModified: new Date(),
+      lastModified: LAST_MODIFIED,
       changeFrequency: "weekly",
       priority: 1.0,
     },
     {
       url: `${BASE_URL}/servicios`,
-      lastModified: new Date(),
+      lastModified: LAST_MODIFIED,
       changeFrequency: "weekly",
       priority: 0.9,
     },
     {
+      url: `${BASE_URL}/preguntas-frecuentes`,
+      lastModified: LAST_MODIFIED,
+      changeFrequency: "monthly" as const,
+      priority: 0.8,
+    },
+    {
       url: `${BASE_URL}/contactanos`,
-      lastModified: new Date(),
+      lastModified: LAST_MODIFIED,
       changeFrequency: "monthly",
       priority: 0.8,
     },
     {
       url: `${BASE_URL}/nosotros`,
-      lastModified: new Date(),
+      lastModified: LAST_MODIFIED,
       changeFrequency: "monthly",
       priority: 0.7,
     },

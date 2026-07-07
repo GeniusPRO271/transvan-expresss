@@ -24,13 +24,6 @@ export const metadata: Metadata = {
       "Explora todos los servicios de Transvan Express: transfer aeropuerto Santiago, centros de ski, Valparaíso, Viña del Mar, tours y más.",
     images: [{ url: "/images/trans-express.png", width: 1200, height: 630, alt: "Servicios de Transvan Express" }],
   },
-  twitter: {
-    card: "summary_large_image",
-    title: "Servicios — Transfers y Tours en Chile | Transvan Express",
-    description:
-      "Transfer aeropuerto Santiago, centros de ski, Valparaíso, Viña del Mar, tours y más.",
-    images: ["/images/trans-express.png"],
-  },
 };
 
 const itemListJsonLd = {

@@ -6,6 +6,11 @@ export const metadata: Metadata = {
   description:
     "Respuestas a las preguntas más frecuentes sobre transfers, tours y reservas con Transvan Express en Chile. Aeropuerto Santiago, ski, Valparaíso y más.",
   alternates: { canonical: "/preguntas-frecuentes", languages: { "es-CL": "/preguntas-frecuentes" } },
+  openGraph: {
+    title: "Preguntas Frecuentes — Transfer Privado Chile | Transvan Express",
+    description: "Respuestas a las preguntas más frecuentes sobre transfers, tours y reservas con Transvan Express en Chile.",
+    images: [{ url: "/images/trans-express.png", width: 1200, height: 630, alt: "Transvan Express" }],
+  },
 };
 
 const faqs = [

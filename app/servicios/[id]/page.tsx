@@ -115,13 +115,7 @@ export async function generateMetadata(
     openGraph: {
       title: `${service.title} | Transvan Express`,
       description: service.description[0].slice(0, 160),
-      images: [{ url: service.cardImage, alt: service.title }],
-    },
-    twitter: {
-      card: "summary_large_image",
-      title: `${service.title} | Transvan Express`,
-      description: service.description[0].slice(0, 160),
-      images: [service.cardImage],
+      images: [{ url: `https://transporte-eventos.cl${service.cardImage}`, width: 1200, height: 630, alt: service.title }],
     },
   };
 }

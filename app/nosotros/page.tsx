@@ -22,13 +22,6 @@ export const metadata: Metadata = {
       "Más de 5 años ofreciendo traslados privados y tours en Chile con puntualidad, seguridad y cobertura en toda la Región Metropolitana.",
     images: [{ url: "/images/trans-express.png", width: 1200, height: 630, alt: "Transvan Express" }],
   },
-  twitter: {
-    card: "summary_large_image",
-    title: "Nosotros — Quiénes Somos | Transvan Express",
-    description:
-      "Más de 5 años ofreciendo traslados privados y tours en Chile con puntualidad, seguridad y cobertura en toda la Región Metropolitana.",
-    images: ["/images/trans-express.png"],
-  },
 };
 
 const aboutJsonLd = {
