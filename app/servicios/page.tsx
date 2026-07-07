@@ -8,15 +8,65 @@ export const metadata: Metadata = {
   title: "Servicios — Transfers y Tours en Chile",
   description:
     "Explora todos los servicios de Transvan Express: transfer aeropuerto Santiago, centros de ski, Valparaíso, Viña del Mar, tour Embalse del Yeso, viñedos, city tour y más.",
+  keywords: [
+    "transfers Chile",
+    "transfer aeropuerto Santiago",
+    "transfer centros de ski",
+    "transfer Valparaíso",
+    "city tour Santiago",
+    "tours privados Chile",
+    "Transvan Express servicios",
+  ],
   alternates: { canonical: "/servicios", languages: { "es-CL": "/servicios" } },
+  openGraph: {
+    title: "Servicios — Transfers y Tours en Chile | Transvan Express",
+    description:
+      "Explora todos los servicios de Transvan Express: transfer aeropuerto Santiago, centros de ski, Valparaíso, Viña del Mar, tours y más.",
+    images: [{ url: "/images/trans-express.png", width: 1200, height: 630, alt: "Servicios de Transvan Express" }],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Servicios — Transfers y Tours en Chile | Transvan Express",
+    description:
+      "Transfer aeropuerto Santiago, centros de ski, Valparaíso, Viña del Mar, tours y más.",
+    images: ["/images/trans-express.png"],
+  },
 };
 
+const itemListJsonLd = {
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  name: "Servicios de Transvan Express",
+  itemListElement: services.map((s, i) => ({
+    "@type": "ListItem",
+    position: i + 1,
+    name: s.title,
+    url: `https://transporte-eventos.cl/servicios/${s.id}`,
+  })),
+};
+
+const breadcrumbJsonLd = {
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  itemListElement: [
+    { "@type": "ListItem", position: 1, name: "Inicio", item: "https://transporte-eventos.cl" },
+    { "@type": "ListItem", position: 2, name: "Servicios", item: "https://transporte-eventos.cl/servicios" },
+  ],
+};
 
 export default function Service() {
   return (
     <div>
-      <div className="hidden lg:block absolute right-[7px] bottom-0 h-[calc(100vh-10px)] items-stretch max-w-[320px] w-full justify-end z-50 scrollbar-hide">
-        <Link href={"https://form.typeform.com/to/MIwhR07i"} className="flex items-center cursor-pointer justify-start bg-[#ffffff14] hover:bg-[rgba(255,255,255,0.15)] backdrop-blur-md gap-x-2.5 p-2.5 font-main text-white rounded-[12.8px] w-[320px] h-26.25">
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(itemListJsonLd) }}
+      />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbJsonLd) }}
+      />
+      <div className="hidden lg:flex pointer-events-none absolute right-[7px] bottom-0 h-[calc(100vh-10px)] items-stretch max-w-[320px] w-full justify-end z-50 scrollbar-hide">
+        <Link href={"https://form.typeform.com/to/MIwhR07i"} className="pointer-events-auto flex items-center cursor-pointer justify-start bg-[#ffffff14] hover:bg-[rgba(255,255,255,0.15)] backdrop-blur-md gap-x-2.5 p-2.5 font-main text-white rounded-[12.8px] w-[320px] h-26.25">
           <div className="flex justify-center items-center rounded-lg w-21.25 h-21.25 bg-white/10 shrink-0">
             <CalendarCheck size={28} className="text-white/70" />
           </div>
@@ -62,7 +112,7 @@ export default function Service() {
                 <div className="flex flex-col justify-center items-start h-full">
                   <div className="flex justify-start items-start h-full w-full">
                     <div className="flex justify-start items-center w-full">
-                      <p className="font-medium text-[16px] w-full">{service.title}</p>
+                      <h2 className="font-medium text-[16px] w-full">{service.title}</h2>
                     </div>
                   </div>
                   <div>

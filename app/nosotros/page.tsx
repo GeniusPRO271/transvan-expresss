@@ -9,12 +9,50 @@ export const metadata: Metadata = {
   title: "Nosotros — Quiénes Somos",
   description:
     "Conoce a Transvan Express: más de 5 años ofreciendo traslados privados y tours en Chile con puntualidad, seguridad y cobertura en toda la Región Metropolitana y más.",
+  keywords: [
+    "Transvan Express",
+    "empresa de transfers Chile",
+    "transporte turístico Santiago",
+    "empresa traslados privados Chile",
+  ],
   alternates: { canonical: "/nosotros", languages: { "es-CL": "/nosotros" } },
+  openGraph: {
+    title: "Nosotros — Quiénes Somos | Transvan Express",
+    description:
+      "Más de 5 años ofreciendo traslados privados y tours en Chile con puntualidad, seguridad y cobertura en toda la Región Metropolitana.",
+    images: [{ url: "/images/trans-express.png", width: 1200, height: 630, alt: "Transvan Express" }],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Nosotros — Quiénes Somos | Transvan Express",
+    description:
+      "Más de 5 años ofreciendo traslados privados y tours en Chile con puntualidad, seguridad y cobertura en toda la Región Metropolitana.",
+    images: ["/images/trans-express.png"],
+  },
+};
+
+const aboutJsonLd = {
+  "@context": "https://schema.org",
+  "@type": "AboutPage",
+  name: "Sobre Transvan Express",
+  description:
+    "Más de 5 años ofreciendo traslados privados y compartidos y tours en Chile con puntualidad, seguridad y cobertura en toda la Región Metropolitana.",
+  url: "https://transporte-eventos.cl/nosotros",
+  mainEntity: {
+    "@type": "Organization",
+    name: "Transvan Express",
+    url: "https://transporte-eventos.cl",
+    areaServed: "Chile",
+  },
 };
 
 export default function About() {
   return (
     <div>
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(aboutJsonLd) }}
+      />
       <div>
         <div className="hidden lg:block absolute right-[7px] bottom-0 h-[calc(100vh-10px)] items-stretch max-w-[320px] w-full justify-end z-50 scrollbar-hide">
           <Link href={"https://form.typeform.com/to/MIwhR07i"} className="flex items-center cursor-pointer justify-start bg-[#ffffff14] hover:bg-[rgba(255,255,255,0.15)] backdrop-blur-md gap-x-2.5 p-2.5 font-main text-white rounded-[12.8px] w-[320px] h-26.25">
@@ -104,7 +142,7 @@ export default function About() {
                   <h3>Comodidad</h3>
                 </div>
                 <div className="text-[14px] lg:max-w-[282px] font-light font-main">
-                  <p>Viaja en vans full equipo con aire acondicionado y Wi-Fi a bordo. Contamos con vehículos de distintas capacidades — hasta 10 y 16 pasajeros — ideales para grupos familiares, turistas y eventos corporativos.</p>
+                  <p>Viaja en vans full equipo con aire acondicionado y Wi-Fi a bordo. Contamos con vehículos de distintas capacidades — 8, 10, 16 o 19 pasajeros — ideales para grupos familiares, turistas y eventos corporativos.</p>
                 </div>
               </div>
             </div>

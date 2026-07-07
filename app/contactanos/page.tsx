@@ -14,7 +14,27 @@ export const metadata: Metadata = {
   title: "Contáctanos — Reserva tu Transfer",
   description:
     "Contacta a Transvan Express por WhatsApp o email para reservar tu transfer privado o tour en Chile. Atención personalizada y respuesta inmediata.",
+  keywords: [
+    "reservar transfer Santiago",
+    "contacto Transvan Express",
+    "reserva transfer aeropuerto",
+    "cotizar transfer Chile",
+    "reservar tour Chile",
+  ],
   alternates: { canonical: "/contactanos", languages: { "es-CL": "/contactanos" } },
+  openGraph: {
+    title: "Contáctanos — Reserva tu Transfer | Transvan Express",
+    description:
+      "Reserva tu transfer privado o compartido en Chile por WhatsApp o email. Respuesta inmediata.",
+    images: [{ url: "/images/trans-express.png", width: 1200, height: 630, alt: "Contacto Transvan Express" }],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Contáctanos — Reserva tu Transfer | Transvan Express",
+    description:
+      "Reserva tu transfer privado o compartido en Chile por WhatsApp o email. Respuesta inmediata.",
+    images: ["/images/trans-express.png"],
+  },
 };
 
 export default function Contact() {
@@ -23,11 +43,11 @@ export default function Contact() {
       <div className="h-[calc(100vh-52px)] w-full px-8 py-4 relative flex flex-col lg:flex-row items-end lg:justify-between">
         <div className="w-full flex flex-1 justify-start items-end ">
           <div className="text-white">
-            <p className="font-main font-medium text-[40px] sm:text-[60px] leading-[100%]">
+            <h1 className="font-main font-medium text-[40px] sm:text-[60px] leading-[100%]">
               Si <span className="font-secondary italic text-[40px] sm:text-[70px]"> buscas </span><br />
               <span className="font-secondary italic text-[40px] sm:text-[70px]">transporte,</span> privado <br /> o compartido <br />
               hablemos.
-            </p>
+            </h1>
           </div>
         </div>
         <div className="w-full flex-1 lg:flex-0  flex mt-[14px] justify-start items-start ">
