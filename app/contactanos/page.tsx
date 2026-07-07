@@ -2,6 +2,28 @@ import type { Metadata } from "next";
 import { ArrowRight, CalendarCheck } from "lucide-react";
 import Link from "next/link";
 
+const contactPageJsonLd = {
+  "@context": "https://schema.org",
+  "@type": "ContactPage",
+  url: "https://transporte-eventos.cl/contactanos",
+  mainEntity: {
+    "@type": "Organization",
+    name: "Transvan Express",
+    contactPoint: {
+      "@type": "ContactPoint",
+      telephone: "+56992912194",
+      contactType: "reservations",
+      availableLanguage: ["Spanish", "English", "Portuguese"],
+      hoursAvailable: {
+        "@type": "OpeningHoursSpecification",
+        dayOfWeek: ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"],
+        opens: "00:00",
+        closes: "23:59",
+      },
+    },
+  },
+};
+
 function WhatsAppIcon({ size = 16 }: { size?: number }) {
   return (
     <svg width={size} height={size} viewBox="0 0 24 24" fill="currentColor" xmlns="http://www.w3.org/2000/svg" className="shrink-0">
@@ -40,6 +62,7 @@ export const metadata: Metadata = {
 export default function Contact() {
   return (
     <main className="">
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(contactPageJsonLd) }} />
       <div className="h-[calc(100vh-52px)] w-full px-8 py-4 relative flex flex-col lg:flex-row items-end lg:justify-between">
         <div className="w-full flex flex-1 justify-start items-end ">
           <div className="text-white">
@@ -94,6 +117,35 @@ export default function Contact() {
           </div>
         </div>
       </div>
+      <section className="px-8 py-12 border-t border-white/10">
+        <h2 className="font-main text-sm font-medium text-white/60 mb-8 uppercase tracking-widest">
+          ¿Cómo hacer tu reserva?
+        </h2>
+        <div className="flex flex-col lg:flex-row gap-8 max-w-2xl">
+          <div className="flex flex-col gap-1">
+            <span className="font-secondary italic text-[40px] text-white/20 leading-none">1</span>
+            <h3 className="font-main font-medium text-white text-sm mb-1">Escríbenos</h3>
+            <p className="font-main font-light text-white/50 text-xs leading-relaxed">
+              Contáctanos por WhatsApp o email con tu fecha, destino, número de pasajeros y cualquier detalle especial. Para transfers de aeropuerto, incluye el número de vuelo.
+            </p>
+          </div>
+          <div className="flex flex-col gap-1">
+            <span className="font-secondary italic text-[40px] text-white/20 leading-none">2</span>
+            <h3 className="font-main font-medium text-white text-sm mb-1">Recibe tu cotización</h3>
+            <p className="font-main font-light text-white/50 text-xs leading-relaxed">
+              En menos de 1 hora durante el día recibirás una cotización personalizada con el precio, horario y todos los detalles del servicio. Sin costos ocultos.
+            </p>
+          </div>
+          <div className="flex flex-col gap-1">
+            <span className="font-secondary italic text-[40px] text-white/20 leading-none">3</span>
+            <h3 className="font-main font-medium text-white text-sm mb-1">Confirma y listo</h3>
+            <p className="font-main font-light text-white/50 text-xs leading-relaxed">
+              Confirma la reserva y recibirás todos los detalles: nombre del conductor, número de vehículo y punto de encuentro. El día del traslado, tu conductor estará puntual.
+            </p>
+          </div>
+        </div>
+      </section>
+
       <div className="hidden lg:flex pointer-events-none absolute right-[7px] bottom-0 h-[calc(100vh-10px)] items-stretch max-w-[320px] w-full justify-end z-50 scrollbar-hide">
         <Link href={"https://form.typeform.com/to/MIwhR07i"} className="pointer-events-auto flex items-center cursor-pointer justify-start bg-[#ffffff14] hover:bg-[rgba(255,255,255,0.15)] backdrop-blur-md gap-x-2.5 p-2.5 font-main text-white rounded-[12.8px] w-[320px] h-26.25">
           <div className="flex justify-center items-center rounded-lg w-21.25 h-21.25 bg-white/10 shrink-0">

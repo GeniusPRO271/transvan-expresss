@@ -86,15 +86,13 @@ export default function Service() {
         </Link>
       </div>
 
-      <div className="w-full flex mt-[180px] px-[16px]">
-        <div className="flex-1 relative rounded-3xl overflow-hidden">
-          <h1 className="font-main text-[40px] sm:text-[60px] font-light leading-[110%] text-white">Descubre
-            Chile
-            como <br />
-            <span className="font-secondary italic">nunca antes </span>
-            lo viviste.
-          </h1>
-        </div>
+      <div className="w-full flex mt-[180px] px-[16px] justify-center">
+        <h1 className="font-main text-[40px] sm:text-[60px] font-light leading-[110%] text-white text-center">
+          Descubre Chile<br />
+          como{" "}
+          <span className="font-secondary italic">nunca antes </span>
+          lo viviste.
+        </h1>
       </div>
 
       <div className="mt-[85px] p-4">
@@ -124,6 +122,25 @@ export default function Service() {
           ))}
         </div>
       </div>
+      <section className="flex flex-col lg:flex-row gap-y-[14px] px-4 pt-[90px]">
+        <div className="flex-1 w-full">
+          <span className="text-sm font-medium text-white">Sobre nuestros servicios</span>
+        </div>
+        <div className="flex flex-3 justify-end items-start">
+          <div className="w-full text-white/60 font-light font-main flex flex-col gap-y-5 max-w-[720px]">
+            <p className="text-sm leading-[140%]">
+              Transvan Express ofrece transfers privados y compartidos desde Santiago hacia los aeropuertos, centros de ski y destinos costeros de Chile, además de tours y excursiones para grupos de todos los tamaños. Atendemos los 365 días del año en español, inglés y portugués.
+            </p>
+            <p className="text-sm leading-[140%]">
+              Nuestros transfers al aeropuerto de Santiago incluyen seguimiento de vuelo en tiempo real. Los transfers a centros de ski cubren Valle Nevado, Farellones, El Colorado, La Parva y Portillo con vehículos equipados con cadenas de nieve. Para los amantes de la cultura, ofrecemos tours a Valparaíso, Viña del Mar, viñedos, Cajón del Maipo y más destinos.
+            </p>
+            <p className="text-sm leading-[140%]">
+              Todas nuestras vans cuentan con Wi-Fi, aire acondicionado y GPS. Capacidad para grupos de 8 a 19 pasajeros — ideales para familias, turistas y eventos corporativos.
+            </p>
+          </div>
+        </div>
+      </section>
+
       <div className="flex flex-col gap-y-[14px] lg:flex-row lg:gap-y-0 my-22.5 px-1.75">
         <div className="w-full">
           <p className="font-normal text-[34px] text-white leading-[120%]">

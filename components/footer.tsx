@@ -23,7 +23,7 @@ export default function Footer() {
         </div>
 
         <div className="text-white flex gap-x-8 font-semibold text-[13px] w-full items-center justify-start font-main">
-          <Link href="/contactanos" className="hover:opacity-70 transition-opacity">Preguntas</Link>
+          <Link href="/preguntas-frecuentes" className="hover:opacity-70 transition-opacity">Preguntas</Link>
           <Link href="/servicios" className="hover:opacity-70 transition-opacity">Servicios</Link>
           <Link href="/nosotros" className="hover:opacity-70 transition-opacity">Nosotros</Link>
           <Link href="/contactanos" className="hover:opacity-70 transition-opacity">Contáctanos</Link>

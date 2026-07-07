@@ -188,6 +188,27 @@ const jsonLd = {
   ],
   availableLanguage: ["Spanish", "English", "Portuguese"],
   priceRange: "$$",
+  contactPoint: [
+    {
+      "@type": "ContactPoint",
+      telephone: "+56992912194",
+      contactType: "reservations",
+      availableLanguage: ["Spanish", "English", "Portuguese"],
+    },
+    {
+      "@type": "ContactPoint",
+      telephone: "+56988101802",
+      contactType: "customer service",
+      availableLanguage: ["Spanish", "English", "Portuguese"],
+    },
+  ],
+  openingHoursSpecification: {
+    "@type": "OpeningHoursSpecification",
+    dayOfWeek: ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"],
+    opens: "00:00",
+    closes: "23:59",
+  },
+  hasMap: "https://maps.google.com/?q=Santiago,+Chile",
 };
 
 export default function RootLayout({
@@ -216,14 +237,14 @@ export default function RootLayout({
         <Analytics />
         <SpeedInsights />
         <Script
-          src="https://www.googletagmanager.com/gtag/js?id=G-QFM13H9SEC"
+          src="https://www.googletagmanager.com/gtag/js?id=G-Q07EHWJ7J2"
           strategy="afterInteractive"
         />
         <Script id="google-analytics" strategy="afterInteractive">{`
           window.dataLayer = window.dataLayer || [];
           function gtag(){dataLayer.push(arguments);}
           gtag('js', new Date());
-          gtag('config', 'G-QFM13H9SEC');
+          gtag('config', 'G-Q07EHWJ7J2');
         `}</Script>
       </body>
     </html>

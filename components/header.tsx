@@ -31,13 +31,17 @@ export function Header() {
             TRANSVAN <br /> EXPRESS
           </Link>
         </div>
-        <div className="text-white flex gap-x-0 md:gap-x-10 font-semibold text-[13px] w-full items-center justify-around md:justify-start font-main">
+        <div className="text-white flex gap-x-0 md:gap-x-10 font-semibold text-[13px] w-full items-center justify-around md:justify-start font-main lg:pr-[343px]">
           <Link href="/" className="md:hidden py-3 px-4 hover:opacity-80 transition-opacity">
             Inicio
           </Link>
 
           <Link href="/servicios" className="py-3 px-4 hover:opacity-80 transition-opacity">
             Servicios
+          </Link>
+
+          <Link href="/preguntas-frecuentes" className="py-3 px-4 hover:opacity-80 transition-opacity">
+            Preguntas
           </Link>
 
           <Link href="/nosotros" className="py-3 px-4 hover:opacity-80 transition-opacity">

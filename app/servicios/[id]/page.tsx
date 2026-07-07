@@ -306,6 +306,34 @@ export default async function Service({ params }: { params: Promise<{ id: string
           </section>
         )}
 
+        <section className="px-4 pt-[90px]">
+          <h2 className="text-sm font-medium text-white mb-6">Otros servicios que podrían interesarte</h2>
+          <div className="flex flex-col sm:flex-row gap-[2px] overflow-x-auto scrollbar-hide">
+            {services
+              .filter((s) => s.id !== service.id)
+              .slice(0, 3)
+              .map((related) => (
+                <Link
+                  key={related.id}
+                  href={`/servicios/${related.id}`}
+                  className="relative flex justify-center items-end cursor-pointer rounded-[20px] h-[280px] sm:flex-1 shrink-0 overflow-hidden"
+                >
+                  <Image
+                    src={related.cardImage}
+                    alt={related.title}
+                    fill
+                    className="object-cover"
+                  />
+                  <div className="absolute inset-0 bg-gradient-to-t from-black/70 via-black/20 to-transparent z-10" />
+                  <div className="relative z-20 flex flex-col justify-end p-4 w-full">
+                    <p className="font-main font-medium text-[14px] text-white">{related.title}</p>
+                    <p className="font-main font-light text-xs text-white/60 leading-[120%]">{related.shortDesc}</p>
+                  </div>
+                </Link>
+              ))}
+          </div>
+        </section>
+
         <div className="flex flex-col gap-y-[14px] lg:flex-row lg:gap-y-0 my-22.5 px-1.75">
           <div className="w-full">
             <p className="font-normal text-[34px] text-white leading-[120%]">

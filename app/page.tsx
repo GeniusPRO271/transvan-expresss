@@ -35,7 +35,7 @@ const faqJsonLd = {
       name: "¿Cuántos pasajeros pueden viajar en una van?",
       acceptedAnswer: {
         "@type": "Answer",
-        text: "Disponemos de vans de 8, 10, 16 y 19 pasajeros, ideales para grupos familiares, turistas y eventos corporativos.",
+        text: "Disponemos de vans para hasta 10 y 16 pasajeros, ideales para grupos familiares, turistas y eventos corporativos.",
       },
     },
     {
@@ -74,18 +74,55 @@ export default function Home() {
       </div>
 
       <section className="px-4 py-16 max-w-355 mx-auto lg:w-[80%]">
-        <h2 className="font-main text-sm font-medium text-white/60 mb-6">
+        <h2 className="font-main text-sm font-medium text-white/60 mb-8">
           Transfer privado y tours en Chile
         </h2>
-        <p className="font-main font-light text-xs leading-relaxed text-white/40 mb-4">
-          Transvan Express ofrece traslados privados y compartidos desde Santiago hacia los principales destinos de Chile. Nuestro servicio de transfer al Aeropuerto Internacional Arturo Merino Benítez está disponible las 24 horas, los 365 días del año. También cubrimos los centros de ski más importantes de la Región Metropolitana: Valle Nevado, Farellones, El Colorado, La Parva y Portillo.
-        </p>
-        <p className="font-main font-light text-xs leading-relaxed text-white/40 mb-4">
-          Para quienes quieren explorar Chile, ofrecemos tours exclusivos al Embalse del Yeso en el Cajón del Maipo, city tours por Santiago, visitas a viñedos, safari en Rancagua, y excursiones a Pomaire e Isla Negra. Todos nuestros vehículos cuentan con aire acondicionado, Wi-Fi y GPS en tiempo real.
-        </p>
-        <p className="font-main font-light text-xs leading-relaxed text-white/40">
-          Con más de 5 años de experiencia y 200+ traslados completados, atendemos en español, inglés y portugués. Nuestras vans tienen capacidad para grupos de 8, 10, 16 o 19 pasajeros, perfectas para familias, grupos de turistas y eventos corporativos.
-        </p>
+
+        <div className="flex flex-col gap-10">
+          <div>
+            <h3 className="font-main font-medium text-white/70 text-xs uppercase tracking-widest mb-3">
+              Transfer Aeropuerto Santiago
+            </h3>
+            <p className="font-main font-light text-xs leading-relaxed text-white/40">
+              El Aeropuerto Internacional Arturo Merino Benítez (SCL) está a 30–40 minutos del centro de Santiago. Nuestro servicio de transfer al aeropuerto incluye seguimiento de vuelo en tiempo real, conductor esperándote en el área de llegadas con tu nombre, y recogida directamente en tu hotel, domicilio o cualquier punto de la Región Metropolitana. Operamos las 24 horas, los 365 días del año, incluyendo Año Nuevo, Navidad y todos los feriados.
+            </p>
+          </div>
+
+          <div>
+            <h3 className="font-main font-medium text-white/70 text-xs uppercase tracking-widest mb-3">
+              Transfers a Centros de Ski
+            </h3>
+            <p className="font-main font-light text-xs leading-relaxed text-white/40">
+              A menos de una hora de Santiago se concentran algunos de los mejores centros de ski de Sudamérica. Realizamos transfers privados y compartidos a Valle Nevado (3.025 m de altitud), Farellones (2.330 m), El Colorado, La Parva y Portillo. Todos nuestros vehículos están equipados con cadenas de nieve y son aptos para ruta de montaña. Nuestros conductores conocen el camino a los Andes a la perfección, con horarios de salida coordenados para que llegues a la apertura de las pistas.
+            </p>
+          </div>
+
+          <div>
+            <h3 className="font-main font-medium text-white/70 text-xs uppercase tracking-widest mb-3">
+              Tours y Excursiones desde Santiago
+            </h3>
+            <p className="font-main font-light text-xs leading-relaxed text-white/40">
+              Santiago es el punto de partida ideal para explorar Chile. Ofrecemos tours privados al Embalse del Yeso en el Cajón del Maipo, city tours por el centro histórico de Santiago, visitas a los viñedos del Valle Central, excursiones al pueblo artesanal de Pomaire y la Casa Museo Pablo Neruda en Isla Negra, tours a Valparaíso (Patrimonio de la Humanidad UNESCO) y Viña del Mar, y safaris en el Parque Safari de Rancagua. Todos los tours se realizan en vans privadas con conductor bilingüe.
+            </p>
+          </div>
+
+          <div>
+            <h3 className="font-main font-medium text-white/70 text-xs uppercase tracking-widest mb-3">
+              ¿Por qué elegir Transvan Express?
+            </h3>
+            <p className="font-main font-light text-xs leading-relaxed text-white/40 mb-3">
+              Con más de 5 años de experiencia y 200+ traslados completados, somos una empresa de transporte turístico con sede en Santiago que atiende en español, inglés y portugués.
+            </p>
+            <ul className="font-main font-light text-xs leading-relaxed text-white/40 flex flex-col gap-1">
+              <li>— GPS en tiempo real en todos los vehículos</li>
+              <li>— Flota inscrita en el Ministerio de Transporte y Telecomunicaciones de Chile</li>
+              <li>— Vans con aire acondicionado y Wi-Fi a bordo</li>
+              <li>— Capacidad para grupos de 8, 10, 16 o 19 pasajeros</li>
+              <li>— Atención personalizada y respuesta en menos de 1 hora</li>
+              <li>— Servicio disponible 365 días al año, incluyendo feriados</li>
+            </ul>
+          </div>
+        </div>
       </section>
     </main>
   );
